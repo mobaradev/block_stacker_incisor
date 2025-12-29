@@ -1,0 +1,13 @@
+{
+	"docFormatVersion":0,
+	"transcriptPhrases":{
+		"Hello World":{
+			"en":"Hello World",
+			"es":"Hola Mundo"
+		},
+        "Goodbye World":{
+			"en":"Goodbye World",
+			"es":"Adiós Mundo"
+		}
+	}
+}

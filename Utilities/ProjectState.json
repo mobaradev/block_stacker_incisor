@@ -1,0 +1,40 @@
+{
+	"docFormatVersion":0,
+	"panelLayout":{
+		"subPanels":[
+			{
+				"subPanels":[
+					{"subPanels":[],"panelType":"Tool Tips","isColumns":true,"divisionLocation":0.5,"stateInfo":""},
+					{
+						"subPanels":[
+							{"subPanels":[],"panelType":"Object","isColumns":true,"divisionLocation":0.5,"stateInfo":""},
+							{"subPanels":[],"panelType":"Hierarchy","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
+						],
+						"isColumns":true,
+						"divisionLocation":0.6017095476624165,
+						"stateInfo":""
+					}
+				],
+				"isColumns":false,
+				"divisionLocation":0.15,
+				"stateInfo":""
+			},
+			{
+				"subPanels":[],
+				"panelType":"Live View",
+				"isColumns":true,
+				"divisionLocation":0.5,
+				"stateInfo":"{\"viewMode\":\"maximize\"}"
+			}
+		],
+		"isColumns":true,
+		"divisionLocation":0.5719094922737306,
+		"stateInfo":""
+	},
+	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]"]},
+	"hierarchyExpansionInfo":{"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"],[0,\"TextAssembly\"]]","[[-1,\"MainScene\"]]"]},
+	"timelineSceneRepExpansionInfo":{},
+	"animatedPropertyGraphEditorStateInfo":{},
+	"recentPermissions":"v1,pro",
+	"assetSelections":[]
+}
