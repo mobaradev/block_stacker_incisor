@@ -45,7 +45,7 @@
 		"divisionLocation":0.5719094922737306,
 		"stateInfo":""
 	},
-	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[1,\"MenuConstruct\"]]"]},
+	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[1,\"MenuConstruct\"],[0,\"Press SPACE to play\"]]"]},
 	"hierarchyExpansionInfo":{
 		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[1,\"MenuConstruct\"]]","[[-1,\"MainScene\"]]"],
 		"Construct Editor Scene: MenuConstruct":["[[-1,\"Construct Editor Scene: MenuConstruct\"]]"]

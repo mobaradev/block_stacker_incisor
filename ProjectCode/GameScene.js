@@ -41,9 +41,9 @@ class GameScene {
             this.levels[i].scale.x = 15;
 
             if (i > 0) {
-                this.levels[i].fillColor.red = 0.3;
-                this.levels[i].fillColor.green = 0.3;
-                this.levels[i].fillColor.blue = 0.3;
+                this.levels[i].fillColor.red = 0.0;
+                this.levels[i].fillColor.green = 0.0;
+                this.levels[i].fillColor.blue = 0.0;
             }
         }
 
@@ -90,11 +90,18 @@ class GameScene {
 
     onHit() {
         this.playerPositionX = this.selection.position.x;
+        let deltaX = this.playerPositionX - this.correctX;
 
         if (Math.abs(this.playerPositionX - this.correctX) < 1000) {
-            this.levels[this.currentLevel].fillColor.red = 0.3;
-            this.levels[this.currentLevel].fillColor.green = 0.3;
-            this.levels[this.currentLevel].fillColor.blue = 0.3;
+            if (deltaX > 20) {
+                this.levels[this.currentLevel].fillColor.red = 0.3;
+                this.levels[this.currentLevel].fillColor.green = 0.2;
+                this.levels[this.currentLevel].fillColor.blue = 0.2;
+            } else {
+                this.levels[this.currentLevel].fillColor.red = 0.2;
+                this.levels[this.currentLevel].fillColor.green = 0.3;
+                this.levels[this.currentLevel].fillColor.blue = 0.2;
+            }
 
             // advance
             this.resizePlayer();
@@ -112,6 +119,18 @@ class GameScene {
             this.levels[this.currentLevel].fillColor.red = 1;
             this.levels[this.currentLevel].fillColor.green = 1;
             this.levels[this.currentLevel].fillColor.blue = 1;
+
+            this.levels[this.currentLevel+1].fillColor.red = 0.2;
+            this.levels[this.currentLevel+1].fillColor.green = 0.2;
+            this.levels[this.currentLevel+1].fillColor.blue = 0.2;
+
+            this.levels[this.currentLevel+2].fillColor.red = 0.1;
+            this.levels[this.currentLevel+2].fillColor.green = 0.1;
+            this.levels[this.currentLevel+2].fillColor.blue = 0.1;
+
+            this.levels[this.currentLevel+3].fillColor.red = 0.06;
+            this.levels[this.currentLevel+3].fillColor.green = 0.06;
+            this.levels[this.currentLevel+3].fillColor.blue = 0.06;
 
             this.breakParticle.position.x = this.selection.position.x;
             this.breakParticle.position.y = this.selection.position.y;
