@@ -435,7 +435,11 @@ this.constants = null;
 /** Dictionary of available ConstructDefinitions.
  */
 this.constructDefs = {
-    
+    /** The ConstructDefinition for the 'MenuConstruct' Construct type.
+ * @type {MenuConstruct_ConstructDefinition}
+ */
+"MenuConstruct":null
+
 };
 
 
@@ -603,6 +607,10 @@ this.fontNames = {
  */
 this.geometries = {
     /** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"Logo":null,
+/** One of the currently defined Geometries.
  * @type {Geometry}
  */
 "SampleParticle2":null,
@@ -1051,6 +1059,10 @@ this.geometries = {
  */
 this.graphicAssets = {
     /** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"Logo":null,
+/** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
 "SampleParticle2":null,
@@ -2214,6 +2226,10 @@ this.textures = {
  * @type {Texture}
  */
 "SampleFont_Char0":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"Logo":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */
@@ -5796,6 +5812,22 @@ class Blueprint
 }
 
 
+/** The 'MenuConstruct' ConstructDefinition type.
+ * [NON-INSTANTIABLE]
+ * @extends {ConstructDefinition}
+ * @hideconstructor
+ */
+class MenuConstruct_ConstructDefinition extends ConstructDefinition
+{
+constructor(){
+}
+/** Adds an instance of the 'MenuConstruct' Construct to the given parent.
+ * @param {SceneObject} [parent] The parent to add the Construct instance to. [DEFAULT: nc.mainScene]
+ * @param {string} [name] The name that will be given to the added Construct instance. If left undefined, this value defaults to the name of the Construct.
+ * @returns {MenuConstruct}
+ */
+ add(parent,name){return(null);}
+}
 
 
 
@@ -5818,6 +5850,28 @@ class Construct extends SceneObject
 }
 
 
+/** The 'MenuConstruct' Construct type. To create a new instance, use 'nc.constructDefs.MenuConstruct.add()'.
+ * [NON-INSTANTIABLE]
+ * @extends {Construct}
+ * @hideconstructor
+ */
+class MenuConstruct extends Construct
+{
+constructor(){
+/** Dictionary of descendants of this Construct by name. Duplicate names are overwritten.
+*/
+this.descendantsByName = {
+/** The 'Press SPACE to play' descendant.
+ * @type {TextBox}
+ */
+"Press SPACE to play":null,
+/** The 'Added GraphicObject' descendant.
+ * @type {GraphicObject}
+ */
+"Added GraphicObject":null
+};
+}
+}
 
 
 
@@ -14017,6 +14071,19 @@ constructor()
 this["DefaultLayer"] = new Layer();
 }
 }
+/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
+ * [NON-INSTANTIABLE]
+ */
+class LayersInScene1
+{
+constructor()
+{
+/** Layer within the 'incr_textRenderingScene' Scene.
+ * @type {Layer}
+ */
+this["DefaultLayer"] = new Layer();
+}
+}
 
 
 
@@ -14031,6 +14098,10 @@ class LayersByScene
  * @type {LayersInScene0}
  */
 this["MainScene"] = new LayersInScene0();
+/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
+ * @type {LayersInScene1}
+ */
+this["incr_textRenderingScene"] = new LayersInScene1();
 
     }
 }

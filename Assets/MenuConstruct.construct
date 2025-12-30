@@ -1,0 +1,45 @@
+{
+	"blueprint":{
+		"type":"Blueprint",
+		"hierarchy":{
+			"0":{},
+			"1":{}
+		},
+		"objects":[
+			{
+				"i":0,
+				"type":"TextBox",
+				"name":"Press SPACE to play",
+				"uid":"9358853474992176",
+				"position":[0,-120,0],
+				"string":"Press SPACE to play",
+				"textFormat":{
+					"fontName":"SampleFont",
+					"lineHeightMultiplier":1,
+					"characterMaterial":{
+						"effectNodes":["SampleMainTexture","Shapify","ColorMultiply"],
+						"effectControllerValues":{}
+					}
+				},
+				"materials":[
+					{"effectNodes":["SampleMainTexture","ColorMultiply"]}
+				]
+			},
+			{
+				"i":1,
+				"type":"GraphicObject",
+				"name":"Added GraphicObject",
+				"uid":"6628700062439044",
+				"position":[0,180,0],
+				"scale":[2,2,1],
+				"graphicAsset":"Logo",
+				"materials":[
+					{"effectNodes":["SampleMainTexture","ColorMultiply"]}
+				]
+			}
+		]
+	},
+	"timelines":{},
+	"layers":[],
+	"constructSettings":{"targetScene":"MainScene","defaultTimeline":"NeutralState"}
+}

@@ -7,7 +7,21 @@
 					{"subPanels":[],"panelType":"Tool Tips","isColumns":true,"divisionLocation":0.5,"stateInfo":""},
 					{
 						"subPanels":[
-							{"subPanels":[],"panelType":"Object","isColumns":true,"divisionLocation":0.5,"stateInfo":""},
+							{
+								"subPanels":[
+									{"subPanels":[],"panelType":"Object","isColumns":true,"divisionLocation":0.5,"stateInfo":""},
+									{
+										"subPanels":[],
+										"panelType":"Construct",
+										"isColumns":true,
+										"divisionLocation":0.5,
+										"stateInfo":"{\"targetConstructName\":\"MenuConstruct\"}"
+									}
+								],
+								"isColumns":false,
+								"divisionLocation":0.5,
+								"stateInfo":""
+							},
 							{"subPanels":[],"panelType":"Hierarchy","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
 						],
 						"isColumns":true,
@@ -31,8 +45,11 @@
 		"divisionLocation":0.5719094922737306,
 		"stateInfo":""
 	},
-	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]"]},
-	"hierarchyExpansionInfo":{"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"],[0,\"TextAssembly\"]]","[[-1,\"MainScene\"]]"]},
+	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[1,\"MenuConstruct\"]]"]},
+	"hierarchyExpansionInfo":{
+		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[1,\"MenuConstruct\"]]","[[-1,\"MainScene\"]]"],
+		"Construct Editor Scene: MenuConstruct":["[[-1,\"Construct Editor Scene: MenuConstruct\"]]"]
+	},
 	"timelineSceneRepExpansionInfo":{},
 	"animatedPropertyGraphEditorStateInfo":{},
 	"recentPermissions":"v1,pro",

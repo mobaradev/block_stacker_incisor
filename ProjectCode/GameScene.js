@@ -6,6 +6,15 @@ class GameScene {
     init() {
         this.isActive = true;
 
+        this.fadeImg = new GraphicObject();
+        this.fadeImg.name = "container";
+        this.fadeImg.fillColor = new Color(0,0,0,1);
+        this.fadeImg.scale.x = 1000;
+        this.fadeImg.scale.y = 1000;
+        this.fadeImg.subLayer = 100;
+
+
+
         this.projectMain.cameraController.targetPositionY = 0;
         this.CurrentDirection = 1;
         this.currentSpeed = 15;
@@ -60,29 +69,23 @@ class GameScene {
         this.selection.position.x = 0;
 
         this.fixedUpdateCallback = function () {
+            this.update();
+
             if (!this.isActive) return;
             this.timeSinceLastKey += 1;
 
-            if (nc.keyDownStates.w === true) {
-                // alert(parseInt(this.selection.position.x));
-                if (this.selection.position.x > 300) {
-                    this.p.enable();
-                    this.p.playbackController.play();
-                }
-            }
-
-            if (nc.keyDownStates.s) {
+            if (nc.keyDownStates[" "]) {
                 if (this.timeSinceLastKey > 30) {
                     this.onHit();
                 }
             }
 
-            this.update();
+            
             this.updatePlayerMovement();
         }
 
-        let event1 = nc.appEvents.fixedUpdate;
-        event1.addCallback(this, "fixedUpdateCallback");
+        this.event1 = nc.appEvents.fixedUpdate;
+        this.event1.addCallback(this, "fixedUpdateCallback");
     }
 
     onHit() {
@@ -95,6 +98,7 @@ class GameScene {
 
             // advance
             this.resizePlayer();
+            if (!this.isActive) return;
 
             this.currentLevel += 1;
             this.timeSinceLastKey = 0;
@@ -120,9 +124,17 @@ class GameScene {
     }
 
     update() {
-        if (!this.isActive) return;
+        if (this.isActive && this.fadeImg.colorMultiply.alpha > 0) {
+            this.fadeImg.colorMultiply.alpha -= 1/60;
+        }
+
+        if (!this.isActive && this.fadeImg.colorMultiply.alpha < 1) {
+            this.fadeImg.colorMultiply.alpha += 1/60;
+        }
         this.projectMain.cameraController.targetPositionY = this.currentLevel * 150;
         this.projectMain.cameraController.update();
+        if (!this.isActive) return;
+
 
         this.indicator.position.y = this.currentLevel * 150;
         this.selection.position.y = this.currentLevel * 150;
@@ -155,11 +167,16 @@ class GameScene {
             if (deltaX / 100 >= this.selection.scale.x) {
                 console.log('Game over');
                 this.isActive = false;
-                this.deactivateObjects();
-                this.projectMain.restart();
+                this.projectMain.cameraController.shake(0.7, 18);
+                setTimeout(() => {
+                    this.deactivateObjects();
+                    this.projectMain.restart();
+                }, 1000);
 
                 return;
             }
+
+            this.projectMain.cameraController.shake(0.25, 10);
 
             this.indicator.scale.x = this.indicator.scale.x - deltaX / 100;
             this.selection.scale.x = this.selection.scale.x - deltaX / 100;
@@ -205,5 +222,8 @@ class GameScene {
         for (let i = 0; i < 30; i++) {
             this.levels[i].dispose();
         }
+
+        this.fadeImg.dispose();
+        this.event1.removeCallback(this, "fixedUpdateCallback");
     }
 }

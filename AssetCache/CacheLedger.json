@@ -1,6 +1,6 @@
 {
 	"docFormatVersion":27,
-	"nextCacheFileIndex":108,
+	"nextCacheFileIndex":115,
 	"ledger":{
 		"incr_image/SampleParticle/assetPackageScale-100_language-ALL_soundQuality-ALL":{
 			"assetType":"incr_image",
@@ -1658,6 +1658,34 @@
 				"incr_image/icon_minus",
 				"incr_image/icon_sliderarrows",
 				"incr_image/icon_sliderarrowsapart"
+			]
+		},
+		"incr_construct/MenuConstruct/assetPackageScale-ALL_language-ALL_soundQuality-ALL":{
+			"assetType":"incr_construct",
+			"assetRequestIdentifier":"incr_construct/MenuConstruct",
+			"assetName":"MenuConstruct",
+			"fullAssetComponentIdentifier":"incr_construct/MenuConstruct/assetPackageScale-ALL_language-ALL_soundQuality-ALL",
+			"assetCacheFilename":"AssetCache_113.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.30.02.18.59.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/MenuConstruct.construct"
+				}
+			]
+		},
+		"incr_image/Logo/assetPackageScale-100_language-ALL_soundQuality-ALL":{
+			"assetType":"incr_image",
+			"assetRequestIdentifier":"incr_image/Logo",
+			"assetName":"Logo",
+			"fullAssetComponentIdentifier":"incr_image/Logo/assetPackageScale-100_language-ALL_soundQuality-ALL",
+			"assetCacheFilename":"AssetCache_114.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.30.02.16.26.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/Logo.png"
+				}
 			]
 		}
 	}
