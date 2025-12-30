@@ -1,6 +1,6 @@
 {
 	"docFormatVersion":27,
-	"nextCacheFileIndex":117,
+	"nextCacheFileIndex":122,
 	"ledger":{
 		"incr_image/SampleParticle/assetPackageScale-100_language-ALL_soundQuality-ALL":{
 			"assetType":"incr_image",
@@ -1713,6 +1713,76 @@
 					"fileDate":"2025.12.30.15.14.40.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/Eyes2.png"
+				}
+			]
+		},
+		"incr_sound/pickupCoin/assetPackageScale-ALL_language-ALL_soundQuality-stereo_115":{
+			"assetType":"incr_sound",
+			"assetRequestIdentifier":"incr_sound/pickupCoin",
+			"assetName":"pickupCoin",
+			"fullAssetComponentIdentifier":"incr_sound/pickupCoin/assetPackageScale-ALL_language-ALL_soundQuality-stereo_115",
+			"assetCacheFilename":"AssetCache_117.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.30.17.47.24.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/pickupCoin.wav"
+				}
+			]
+		},
+		"incr_image/Eyelid/assetPackageScale-100_language-ALL_soundQuality-ALL":{
+			"assetType":"incr_image",
+			"assetRequestIdentifier":"incr_image/Eyelid",
+			"assetName":"Eyelid",
+			"fullAssetComponentIdentifier":"incr_image/Eyelid/assetPackageScale-100_language-ALL_soundQuality-ALL",
+			"assetCacheFilename":"AssetCache_118.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.30.22.45.38.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/Eyelid.png"
+				}
+			]
+		},
+		"incr_image/EyesClosed/assetPackageScale-100_language-ALL_soundQuality-ALL":{
+			"assetType":"incr_image",
+			"assetRequestIdentifier":"incr_image/EyesClosed",
+			"assetName":"EyesClosed",
+			"fullAssetComponentIdentifier":"incr_image/EyesClosed/assetPackageScale-100_language-ALL_soundQuality-ALL",
+			"assetCacheFilename":"AssetCache_119.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.30.23.39.32.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/EyesClosed.png"
+				}
+			]
+		},
+		"incr_image/RightEye/assetPackageScale-100_language-ALL_soundQuality-ALL":{
+			"assetType":"incr_image",
+			"assetRequestIdentifier":"incr_image/RightEye",
+			"assetName":"RightEye",
+			"fullAssetComponentIdentifier":"incr_image/RightEye/assetPackageScale-100_language-ALL_soundQuality-ALL",
+			"assetCacheFilename":"AssetCache_120.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.31.00.06.54.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/RightEye.png"
+				}
+			]
+		},
+		"incr_image/LeftEye/assetPackageScale-100_language-ALL_soundQuality-ALL":{
+			"assetType":"incr_image",
+			"assetRequestIdentifier":"incr_image/LeftEye",
+			"assetName":"LeftEye",
+			"fullAssetComponentIdentifier":"incr_image/LeftEye/assetPackageScale-100_language-ALL_soundQuality-ALL",
+			"assetCacheFilename":"AssetCache_121.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.31.00.08.01.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/LeftEye.png"
 				}
 			]
 		}

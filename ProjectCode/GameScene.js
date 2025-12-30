@@ -19,7 +19,7 @@ class GameScene {
         this.eyes.position.y = 400;
         this.eyes.subLayer = 5;
 
-        this.leftEye = new GraphicObject(undefined, this.eyes);
+        this.leftEye = new GraphicObject(nc.graphicAssets.RightEye, this.eyes);
         this.leftEye.fillColor = new Color(0, 0, 0, 1);
         this.leftEye.subLayer = 7;
         this.leftEye.position.x = -550;
@@ -27,12 +27,17 @@ class GameScene {
 
         this.baseEyePositionX = 550;
 
-        this.rightEye = new GraphicObject(undefined, this.eyes);
+        this.rightEye = new GraphicObject(nc.graphicAssets.RightEye, this.eyes);
         this.rightEye.fillColor = new Color(0, 0, 0, 1);
         this.rightEye.subLayer = 7;
         this.rightEye.position.x = 550;
         this.rightEye.position.y = -350;
 
+        this.eyesClosed = new GraphicObject(nc.graphicAssets.EyesClosed, this.eyes);
+        this.eyesClosed.subLayer = 8;
+        this.eyesClosed.position.x = 0;
+        this.eyesClosed.position.y = 0;
+        // this.eyesClosed.disable();
 
 
         this.projectMain.cameraController.targetPositionY = 0;
@@ -88,24 +93,8 @@ class GameScene {
         this.selection.subLayer = 1;
         this.selection.position.x = 0;
 
-        this.fixedUpdateCallback = function () {
-            this.update();
-
-            if (!this.isActive) return;
-            this.timeSinceLastKey += 1;
-
-            if (nc.keyDownStates[" "]) {
-                if (this.timeSinceLastKey > 30) {
-                    this.onHit();
-                }
-            }
-
-            
-            this.updatePlayerMovement();
-        }
-
         this.event1 = nc.appEvents.fixedUpdate;
-        this.event1.addCallback(this, "fixedUpdateCallback");
+        this.event1.addCallback(this, "update");
     }
 
     onHit() {
@@ -113,7 +102,7 @@ class GameScene {
         let deltaX = this.playerPositionX - this.correctX;
 
         if (Math.abs(this.playerPositionX - this.correctX) < 1000) {
-            if (deltaX > 20) {
+            if (Math.abs(deltaX) > 20) {
                 this.levels[this.currentLevel].fillColor.red = 0.3;
                 this.levels[this.currentLevel].fillColor.green = 0.2;
                 this.levels[this.currentLevel].fillColor.blue = 0.2;
@@ -156,6 +145,9 @@ class GameScene {
             this.breakParticle.position.y = this.selection.position.y;
             this.breakParticle.playbackController.playOnce();
 
+            this.eyesClosed.enable();
+            setTimeout(() => this.eyesClosed.disable(), 100);
+
 
         } else {
             console.log("Wrong");
@@ -170,10 +162,17 @@ class GameScene {
         if (!this.isActive && this.fadeImg.colorMultiply.alpha < 1) {
             this.fadeImg.colorMultiply.alpha += 1/60;
         }
-        this.projectMain.cameraController.targetPositionY = this.currentLevel * 150;
+        this.projectMain.cameraController.targetPositionY = 200 + this.currentLevel * 150;
         this.projectMain.cameraController.update();
         if (!this.isActive) return;
 
+        this.timeSinceLastKey += 1;
+
+        if (nc.keyDownStates[" "]) {
+            if (this.timeSinceLastKey > 30) {
+                this.onHit();
+            }
+        }
 
         this.indicator.position.y = this.currentLevel * 150;
         this.selection.position.y = this.currentLevel * 150;
@@ -184,6 +183,8 @@ class GameScene {
 
         this.leftEye.position.x = -this.baseEyePositionX + this.selection.position.x/8;
         this.rightEye.position.x = this.baseEyePositionX + this.selection.position.x/8;
+
+        this.updatePlayerMovement();
     }
 
     getRandomInt(min, max) {
@@ -225,6 +226,8 @@ class GameScene {
             this.indicator.scale.x = this.indicator.scale.x - deltaX / 100;
             this.selection.scale.x = this.selection.scale.x - deltaX / 100;
         } else {
+            // nc.sounds.Beep.playOnce();
+            nc.sounds.pickupCoin.playOnce();
             this.projectMain.cameraController.changeToColor(0, .5, 0);
             setTimeout(() => this.projectMain.cameraController.changeToColor(0, 0, 0), 250);
         }
@@ -271,6 +274,6 @@ class GameScene {
         }
 
         this.fadeImg.dispose();
-        this.event1.removeCallback(this, "fixedUpdateCallback");
+        this.event1.removeCallback(this, "update");
     }
 }

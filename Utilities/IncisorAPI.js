@@ -609,11 +609,11 @@ this.geometries = {
     /** One of the currently defined Geometries.
  * @type {Geometry}
  */
-"Eyes2":null,
+"LeftEye":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
-"Eyes":null,
+"RightEye":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
@@ -1038,6 +1038,14 @@ this.geometries = {
  * @type {Geometry}
  */
 "Logo":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"EyesClosed":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"Eyes":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
@@ -1069,11 +1077,11 @@ this.graphicAssets = {
     /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
-"Eyes2":null,
+"LeftEye":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
-"Eyes":null,
+"RightEye":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
@@ -1498,6 +1506,14 @@ this.graphicAssets = {
  * @type {GraphicAsset}
  */
 "Logo":null,
+/** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"EyesClosed":null,
+/** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"Eyes":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
@@ -1779,6 +1795,10 @@ this.layersByScene = new LayersByScene();
  */
 this.sounds = {
     /** One of the currently defined Sounds.
+ * @type {Sound}
+ */
+"pickupCoin":null,
+/** One of the currently defined Sounds.
  * @type {Sound}
  */
 "Beep":null
@@ -2245,11 +2265,11 @@ this.textures = {
 /** One of the currently defined Textures.
  * @type {Texture}
  */
-"Eyes2":null,
+"LeftEye":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */
-"Eyes":null,
+"RightEye":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */
@@ -2302,6 +2322,14 @@ this.textures = {
  * @type {Texture}
  */
 "Logo":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"EyesClosed":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"Eyes":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */
@@ -14108,19 +14136,6 @@ constructor()
 this["DefaultLayer"] = new Layer();
 }
 }
-/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
- * [NON-INSTANTIABLE]
- */
-class LayersInScene2
-{
-constructor()
-{
-/** Layer within the 'Construct Editor Scene: MenuConstruct' Scene.
- * @type {Layer}
- */
-this["DefaultLayer"] = new Layer();
-}
-}
 
 
 
@@ -14139,10 +14154,6 @@ this["MainScene"] = new LayersInScene0();
  * @type {LayersInScene1}
  */
 this["incr_textRenderingScene"] = new LayersInScene1();
-/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
- * @type {LayersInScene2}
- */
-this["Construct Editor Scene: MenuConstruct"] = new LayersInScene2();
 
     }
 }

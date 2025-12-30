@@ -15,7 +15,6 @@ class MenuScene {
         
     }
     update() {
-        console.log('update')
         if (nc.keyDownStates[" "]) {
             if (!this.isLoadingLevel) {
                 setTimeout(() => {
@@ -25,7 +24,6 @@ class MenuScene {
             }
             this.isLoadingLevel = true;
         }
-
 
 
         if (!this.isLoadingLevel && this.menuConstruct.colorMultiply.alpha < 1.0) {
