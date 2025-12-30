@@ -13,6 +13,26 @@ class GameScene {
         this.fadeImg.scale.y = 1000;
         this.fadeImg.subLayer = 100;
 
+        this.eyes = new GraphicObject(nc.graphicAssets.Eyes);
+        this.eyes.scale.x = 0.4;
+        this.eyes.scale.y = 0.4;
+        this.eyes.position.y = 400;
+        this.eyes.subLayer = 5;
+
+        this.leftEye = new GraphicObject(undefined, this.eyes);
+        this.leftEye.fillColor = new Color(0, 0, 0, 1);
+        this.leftEye.subLayer = 7;
+        this.leftEye.position.x = -550;
+        this.leftEye.position.y = -350;
+
+        this.baseEyePositionX = 550;
+
+        this.rightEye = new GraphicObject(undefined, this.eyes);
+        this.rightEye.fillColor = new Color(0, 0, 0, 1);
+        this.rightEye.subLayer = 7;
+        this.rightEye.position.x = 550;
+        this.rightEye.position.y = -350;
+
 
 
         this.projectMain.cameraController.targetPositionY = 0;
@@ -159,6 +179,11 @@ class GameScene {
         this.selection.position.y = this.currentLevel * 150;
 
         this.text.string = "" + this.points;
+
+        this.eyes.position.y = nc.mainCamera.position.y + 800;
+
+        this.leftEye.position.x = -this.baseEyePositionX + this.selection.position.x/8;
+        this.rightEye.position.x = this.baseEyePositionX + this.selection.position.x/8;
     }
 
     getRandomInt(min, max) {
@@ -238,6 +263,9 @@ class GameScene {
         this.indicator.dispose();
         this.selection.dispose();
         this.text.dispose();
+        this.eyes.dispose();
+        this.leftEye.dispose();
+        this.rightEye.dispose();
         for (let i = 0; i < 30; i++) {
             this.levels[i].dispose();
         }

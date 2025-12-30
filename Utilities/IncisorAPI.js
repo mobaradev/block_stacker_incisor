@@ -609,7 +609,11 @@ this.geometries = {
     /** One of the currently defined Geometries.
  * @type {Geometry}
  */
-"Logo":null,
+"Eyes2":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"Eyes":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
@@ -1030,6 +1034,10 @@ this.geometries = {
  * @type {Geometry}
  */
 "SampleFont_Char0":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"Logo":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
@@ -1061,7 +1069,11 @@ this.graphicAssets = {
     /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
-"Logo":null,
+"Eyes2":null,
+/** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"Eyes":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
@@ -1482,6 +1494,10 @@ this.graphicAssets = {
  * @type {GraphicAsset}
  */
 "SampleFont_Char0":null,
+/** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"Logo":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
@@ -2229,7 +2245,11 @@ this.textures = {
 /** One of the currently defined Textures.
  * @type {Texture}
  */
-"Logo":null,
+"Eyes2":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"Eyes":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */
@@ -2278,6 +2298,10 @@ this.textures = {
  * @type {Texture}
  */
 "SampleFont0":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"Logo":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */

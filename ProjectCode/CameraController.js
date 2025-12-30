@@ -4,6 +4,8 @@ class CameraController {
     }
 
     init() {
+        nc.mainCamera.coreViewHeight = 2000;
+        nc.mainCamera.coreViewWidth = 1000;
         nc.mainCamera.adaptiveCameraMode = "maximizeSafeZone";
         
         this.targetPositionY = 0;
