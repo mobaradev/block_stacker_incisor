@@ -57,6 +57,7 @@ class GameScene {
         this.levels = [];
         this.levelNumbers = [];
         this.pastLevelNumbers = [];
+        this.pastLevelOutcomeText = [];
 
         for (let i = 0; i < 128; i++) {
             this.levels[i] = new GraphicObject();
@@ -130,12 +131,16 @@ class GameScene {
 
             this.pastLevelNumbers.push(pastLevelNumber);
 
+
+
             if (Math.abs(deltaX) > 20) {
                 this.levels[this.currentLevel].fillColor.red = 0.3;
                 this.levels[this.currentLevel].fillColor.green = 0.2;
                 this.levels[this.currentLevel].fillColor.blue = 0.2;
 
                 pastLevelNumber.textFormat.characterMaterial.colorMultiply = new Color(0.3, 0.2, 0.2);
+
+             
             } else {
                 this.levels[this.currentLevel].fillColor.red = 0.2;
                 this.levels[this.currentLevel].fillColor.green = 0.3;
@@ -268,9 +273,22 @@ class GameScene {
             }
 
             this.projectMain.cameraController.shake(0.25, 10);
+            
+            const oldScale = this.indicator.scale.x;
+            const newScale = this.indicator.scale.x - deltaX / 100;
 
             this.indicator.scale.x = this.indicator.scale.x - deltaX / 100;
             this.selection.scale.x = this.selection.scale.x - deltaX / 100;
+
+            let pastLevelOutcomeText = new TextAssembly();
+            pastLevelOutcomeText.textFormat.characterMaterial.colorMultiply = new Color(0, 0, 0, 1);
+            pastLevelOutcomeText.position.x = 672;
+            pastLevelOutcomeText.position.y = 150 * this.currentLevel;
+            pastLevelOutcomeText.textFormat.characterScaleX = 0.7;
+            pastLevelOutcomeText.textFormat.characterScaleY = 0.7;
+            pastLevelOutcomeText.string = "-" + parseInt(100*(oldScale - newScale)/oldScale) + "%";
+
+            this.pastLevelOutcomeText.push(pastLevelOutcomeText);   
         } else {
             // nc.sounds.Beep.playOnce();
             nc.sounds.pickupCoin.playOnce();
@@ -315,7 +333,7 @@ class GameScene {
         this.leftEye.dispose();
         this.rightEye.dispose();
         this.eyesClosed.dispose();
-        for (let i = 0; i < 30; i++) {
+        for (let i = 0; i < 128; i++) {
             this.levels[i].dispose();
         }
 
@@ -325,6 +343,10 @@ class GameScene {
 
         this.pastLevelNumbers.forEach(number => {
             number.dispose();
+        });
+
+        this.pastLevelOutcomeText.forEach(text => {
+            text.dispose();
         });
 
         this.fadeImg.dispose();
