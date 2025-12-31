@@ -33,6 +33,17 @@ class MenuScene {
             this.isLoadingLevel = true;
         }
 
+        if (nc.keyDownStates["l"]) {
+            if (!this.isLoadingLevel) {
+                setTimeout(() => {
+                    this.deactivateObjects();
+                    this.projectMain.showOnlineLobbyScene();
+                }, 1000);
+                this.fadeEffect.fadeIn();
+            }
+            this.isLoadingLevel = true;
+        }
+
         if (this._textPlayFadeDown) {
             this.textPlay.colorMultiply.alpha -= 1/60;
             if (this.textPlay.colorMultiply.alpha <= 0.0) setTimeout(() => {this._textPlayFadeDown = false}, 100);

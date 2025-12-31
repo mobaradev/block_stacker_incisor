@@ -7,7 +7,6 @@ class ProjectMain {
         this.menuScene = new MenuScene(this);
         this.menuScene.init();
         // this.showGameResults();
-
     }
 
     playGame() {
@@ -25,5 +24,10 @@ class ProjectMain {
         delete this.gameScene;
         this.gameResultsScene = new GameResultsScene(this, data);
         this.gameResultsScene.init();
+    }
+
+    showOnlineLobbyScene() {
+        this.onlineLobbyScene = new OnlineLobbyScene(this);
+        this.onlineLobbyScene.init();
     }
 }
