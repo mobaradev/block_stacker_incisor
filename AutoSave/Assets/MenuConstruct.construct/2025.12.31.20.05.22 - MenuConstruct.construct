@@ -62,26 +62,26 @@
 				"type":"GraphicObject",
 				"name":"mobaradev-logo",
 				"uid":"0515401672006368",
-				"position":[-375,-600,0],
+				"position":[-375,-550,0],
 				"scale":[0.6,0.6,1],
 				"graphicAsset":"mobaradev-logo",
 				"materials":[
 					{"effectNodes":["SampleMainTexture","ColorMultiply"]}
 				]
 			},
+			{"i":4,"name":"Added SceneObject","uid":"0811754196042638"},
 			{
-				"i":4,
+				"i":5,
 				"type":"GraphicObject",
 				"name":"incisor-logo",
 				"uid":"7996849264322857",
-				"position":[375,-600,0],
+				"position":[375,-550,0],
 				"scale":[0.9,0.9,1],
 				"graphicAsset":"incisor-logo",
 				"materials":[
 					{"effectNodes":["SampleMainTexture","ColorMultiply"]}
 				]
-			},
-			{"i":5,"name":"Added SceneObject","uid":"0811754196042638"}
+			}
 		]
 	},
 	"timelines":{},

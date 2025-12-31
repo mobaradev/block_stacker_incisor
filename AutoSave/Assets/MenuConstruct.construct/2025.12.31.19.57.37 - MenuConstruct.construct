@@ -5,9 +5,7 @@
 			"0":{},
 			"1":{},
 			"2":{},
-			"3":{},
-			"4":{},
-			"5":{}
+			"3":{}
 		},
 		"objects":[
 			{
@@ -15,7 +13,7 @@
 				"type":"TextBox",
 				"name":"text_play",
 				"uid":"9358853474992176",
-				"position":[0.9991400948251714,-260,0],
+				"position":[0.9991400948251714,-230.04704255319163,0],
 				"string":"Press SPACE to play",
 				"textFormat":{
 					"fontName":"SampleFont",
@@ -32,10 +30,10 @@
 			{
 				"i":1,
 				"type":"GraphicObject",
-				"name":"logo",
+				"name":"Added GraphicObject",
 				"uid":"6628700062439044",
-				"position":[0,280,0],
-				"scale":[3,3,1],
+				"position":[0,180,0],
+				"scale":[2,2,1],
 				"graphicAsset":"Logo",
 				"materials":[
 					{"effectNodes":["SampleMainTexture","ColorMultiply"]}
@@ -60,28 +58,14 @@
 			{
 				"i":3,
 				"type":"GraphicObject",
-				"name":"mobaradev-logo",
+				"name":"Added GraphicObject",
 				"uid":"0515401672006368",
-				"position":[-375,-600,0],
-				"scale":[0.6,0.6,1],
+				"position":[1.1379786002407855E-13,-244.1159432624113,0],
 				"graphicAsset":"mobaradev-logo",
 				"materials":[
 					{"effectNodes":["SampleMainTexture","ColorMultiply"]}
 				]
-			},
-			{
-				"i":4,
-				"type":"GraphicObject",
-				"name":"incisor-logo",
-				"uid":"7996849264322857",
-				"position":[375,-600,0],
-				"scale":[0.9,0.9,1],
-				"graphicAsset":"incisor-logo",
-				"materials":[
-					{"effectNodes":["SampleMainTexture","ColorMultiply"]}
-				]
-			},
-			{"i":5,"name":"Added SceneObject","uid":"0811754196042638"}
+			}
 		]
 	},
 	"timelines":{},

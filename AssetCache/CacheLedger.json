@@ -1,6 +1,6 @@
 {
 	"docFormatVersion":27,
-	"nextCacheFileIndex":123,
+	"nextCacheFileIndex":125,
 	"ledger":{
 		"incr_image/SampleParticle/assetPackageScale-100_language-ALL_soundQuality-ALL":{
 			"assetType":"incr_image",
@@ -1668,7 +1668,7 @@
 			"assetCacheFilename":"AssetCache_113.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.31.18.00.35.0000",
+					"fileDate":"2025.12.31.20.06.21.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/MenuConstruct.construct"
 				}
@@ -1769,6 +1769,34 @@
 					"fileDate":"2025.12.31.17.19.33.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/skullicon.png"
+				}
+			]
+		},
+		"incr_image/mobaradev-logo/assetPackageScale-100_language-ALL_soundQuality-ALL":{
+			"assetType":"incr_image",
+			"assetRequestIdentifier":"incr_image/mobaradev-logo",
+			"assetName":"mobaradev-logo",
+			"fullAssetComponentIdentifier":"incr_image/mobaradev-logo/assetPackageScale-100_language-ALL_soundQuality-ALL",
+			"assetCacheFilename":"AssetCache_123.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.31.20.05.22.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/mobaradev-logo.png"
+				}
+			]
+		},
+		"incr_image/incisor-logo/assetPackageScale-100_language-ALL_soundQuality-ALL":{
+			"assetType":"incr_image",
+			"assetRequestIdentifier":"incr_image/incisor-logo",
+			"assetName":"incisor-logo",
+			"fullAssetComponentIdentifier":"incr_image/incisor-logo/assetPackageScale-100_language-ALL_soundQuality-ALL",
+			"assetCacheFilename":"AssetCache_124.json",
+			"assetFileDependancies":[
+				{
+					"fileDate":"2025.12.31.19.57.37.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/incisor-logo.png"
 				}
 			]
 		}

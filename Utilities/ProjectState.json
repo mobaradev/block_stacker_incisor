@@ -19,13 +19,13 @@
 									}
 								],
 								"isColumns":false,
-								"divisionLocation":0.22487443887018835,
+								"divisionLocation":0.25575587940516753,
 								"stateInfo":""
 							},
 							{"subPanels":[],"panelType":"Hierarchy","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
 						],
 						"isColumns":true,
-						"divisionLocation":0.6017095476624165,
+						"divisionLocation":0.6345639250507937,
 						"stateInfo":""
 					}
 				],
@@ -45,7 +45,7 @@
 		"divisionLocation":0.45836782560706396,
 		"stateInfo":""
 	},
-	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[2,\"MenuConstruct\"],[2,\"text_highscore\"]]"]},
+	"selectionState":{"sceneObject":["[[-1,\"Construct Editor Scene: MenuConstruct\"],[0,\"MenuConstruct\"],[5,\"incisor-logo\"]]"]},
 	"hierarchyExpansionInfo":{
 		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[2,\"MenuConstruct\"]]","[[-1,\"MainScene\"]]"],
 		"Construct Editor Scene: MenuConstruct":[

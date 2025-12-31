@@ -609,7 +609,11 @@ this.geometries = {
     /** One of the currently defined Geometries.
  * @type {Geometry}
  */
-"skullicon":null,
+"incisor-logo":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"mobaradev-logo":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
@@ -1030,6 +1034,10 @@ this.geometries = {
  * @type {Geometry}
  */
 "SampleFont_Char0":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"skullicon":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
@@ -1081,7 +1089,11 @@ this.graphicAssets = {
     /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
-"skullicon":null,
+"incisor-logo":null,
+/** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"mobaradev-logo":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
@@ -1502,6 +1514,10 @@ this.graphicAssets = {
  * @type {GraphicAsset}
  */
 "SampleFont_Char0":null,
+/** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"skullicon":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
@@ -2273,7 +2289,11 @@ this.textures = {
 /** One of the currently defined Textures.
  * @type {Texture}
  */
-"skullicon":null,
+"incisor-logo":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"mobaradev-logo":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */
@@ -2322,6 +2342,10 @@ this.textures = {
  * @type {Texture}
  */
 "SampleFont0":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"skullicon":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */
@@ -5929,14 +5953,26 @@ this.descendantsByName = {
  * @type {TextBox}
  */
 "text_play":null,
-/** The 'Added GraphicObject' descendant.
+/** The 'logo' descendant.
  * @type {GraphicObject}
  */
-"Added GraphicObject":null,
+"logo":null,
 /** The 'text_highscore' descendant.
  * @type {TextAssembly}
  */
-"text_highscore":null
+"text_highscore":null,
+/** The 'mobaradev-logo' descendant.
+ * @type {GraphicObject}
+ */
+"mobaradev-logo":null,
+/** The 'incisor-logo' descendant.
+ * @type {GraphicObject}
+ */
+"incisor-logo":null,
+/** The 'Added SceneObject' descendant.
+ * @type {SceneObject}
+ */
+"Added SceneObject":null
 };
 }
 }
