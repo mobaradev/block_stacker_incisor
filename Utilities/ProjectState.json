@@ -39,7 +39,7 @@
 		"divisionLocation":0.45836782560706396,
 		"stateInfo":""
 	},
-	"selectionState":{"sceneObject":["[[-1,\"MainScene\"]]"]},
+	"selectionState":{"sceneObject":[]},
 	"hierarchyExpansionInfo":{
 		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[2,\"MenuConstruct\"]]","[[-1,\"MainScene\"]]"],
 		"Construct Editor Scene: MenuConstruct":[

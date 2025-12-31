@@ -1,8 +1,9 @@
 // This is the main entry point for this Incisor® project. 
 // Throughout the project, this object can be referenced as 'pr'.
 class ProjectMain {
-    
+
     init() {
+        this.webConnection = new WebConnection();
         this.cameraController = new CameraController();
         this.menuScene = new MenuScene(this);
         this.menuScene.init();

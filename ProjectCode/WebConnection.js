@@ -1,13 +1,16 @@
 class WebConnection {
     init() {
         const wsUri = "ws://127.0.0.1:8081";
-        const ws = new WebSocket(wsUri);
+        this.ws = new WebSocket(wsUri);
+        this.onlineLobbyScene = null;
 
-        ws.addEventListener("open", () => {
-            ws.send(JSON.stringify({type: "joinLobby", nick: "player1"}));
+        this.playersInLobby = [];
+
+        this.ws.addEventListener("open", () => {
+            this.ws.send(JSON.stringify({ type: "joinLobby", nick: "player1" }));
         });
 
-        ws.addEventListener("message", (e) => {
+        this.ws.addEventListener("message", (e) => {
             const data = JSON.parse(e.data);
             console.log(`RECEIVED:`);
             console.log(data)
@@ -15,11 +18,32 @@ class WebConnection {
             if (data.type === "joinLobbyResponse") {
                 if (data.status == true) {
                     // join
-                    alert("Joined");
+                    console.log("Joined");
+                    this.onlineLobbyScene.onLobbyJoin();
                 } else {
-                    alert("Can't join lobby at the moment");
+                    console.log("Can't join lobby at the moment");
+                    this.onlineLobbyScene.onLobbyUnavailable();
                 }
             }
+
+            if (data.type === "lobbyUpdate") {
+                console.log("Current players in lobby:");
+                console.log(data.players);
+                this.playersInLobby = data.players;
+                this.lobbyStatus = data.lobbyStatus;
+                this.lobbyWaitingRemainTime = data.lobbyWaitingRemainTime;
+            }
+
+            if (data.type === "startGame") {
+                console.log("Game is starting!");
+                // Handle game start logic here
+                alert("Game is starting! Players: " + data.players.map(p => p.nick).join(", "));
+            }
         });
+    }
+
+    close() {
+        // Close connection if needed
+        this.ws.close();
     }
 }

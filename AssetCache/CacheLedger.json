@@ -10,7 +10,7 @@
 			"assetCacheFilename":"AssetCache_0.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"none\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"SampleParticles\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleParticles/SampleParticle.png"
 				}
@@ -24,7 +24,7 @@
 			"assetCacheFilename":"AssetCache_1.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"SampleParticles\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleParticles/SampleParticle2.png"
 				}
@@ -38,7 +38,7 @@
 			"assetCacheFilename":"AssetCache_2.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_checkmark.png"
 				}
@@ -52,7 +52,7 @@
 			"assetCacheFilename":"AssetCache_3.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_minus.png"
 				}
@@ -66,7 +66,7 @@
 			"assetCacheFilename":"AssetCache_4.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_caret.png"
 				}
@@ -80,7 +80,7 @@
 			"assetCacheFilename":"AssetCache_5.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_sliderarrowsapart.png"
 				}
@@ -94,7 +94,7 @@
 			"assetCacheFilename":"AssetCache_6.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_ex.png"
 				}
@@ -108,7 +108,7 @@
 			"assetCacheFilename":"AssetCache_7.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_sliderarrows.png"
 				}
@@ -122,7 +122,7 @@
 			"assetCacheFilename":"AssetCache_8.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_magnifyingglass.png"
 				}
@@ -136,7 +136,7 @@
 			"assetCacheFilename":"AssetCache_9.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -150,7 +150,7 @@
 			"assetCacheFilename":"AssetCache_10.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -164,7 +164,7 @@
 			"assetCacheFilename":"AssetCache_11.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -178,7 +178,7 @@
 			"assetCacheFilename":"AssetCache_12.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -192,7 +192,7 @@
 			"assetCacheFilename":"AssetCache_13.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -206,7 +206,7 @@
 			"assetCacheFilename":"AssetCache_14.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -220,7 +220,7 @@
 			"assetCacheFilename":"AssetCache_15.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -234,7 +234,7 @@
 			"assetCacheFilename":"AssetCache_16.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -248,7 +248,7 @@
 			"assetCacheFilename":"AssetCache_17.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -262,7 +262,7 @@
 			"assetCacheFilename":"AssetCache_18.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -276,7 +276,7 @@
 			"assetCacheFilename":"AssetCache_19.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -290,7 +290,7 @@
 			"assetCacheFilename":"AssetCache_20.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -304,7 +304,7 @@
 			"assetCacheFilename":"AssetCache_21.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -318,7 +318,7 @@
 			"assetCacheFilename":"AssetCache_22.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -332,7 +332,7 @@
 			"assetCacheFilename":"AssetCache_23.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -346,7 +346,7 @@
 			"assetCacheFilename":"AssetCache_24.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -360,7 +360,7 @@
 			"assetCacheFilename":"AssetCache_25.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -374,7 +374,7 @@
 			"assetCacheFilename":"AssetCache_26.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -388,7 +388,7 @@
 			"assetCacheFilename":"AssetCache_27.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -402,7 +402,7 @@
 			"assetCacheFilename":"AssetCache_28.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -416,7 +416,7 @@
 			"assetCacheFilename":"AssetCache_29.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -430,7 +430,7 @@
 			"assetCacheFilename":"AssetCache_30.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -444,7 +444,7 @@
 			"assetCacheFilename":"AssetCache_31.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -458,7 +458,7 @@
 			"assetCacheFilename":"AssetCache_32.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -472,7 +472,7 @@
 			"assetCacheFilename":"AssetCache_33.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -486,7 +486,7 @@
 			"assetCacheFilename":"AssetCache_34.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -500,7 +500,7 @@
 			"assetCacheFilename":"AssetCache_35.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -514,7 +514,7 @@
 			"assetCacheFilename":"AssetCache_36.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -528,7 +528,7 @@
 			"assetCacheFilename":"AssetCache_37.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -542,7 +542,7 @@
 			"assetCacheFilename":"AssetCache_38.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -556,7 +556,7 @@
 			"assetCacheFilename":"AssetCache_39.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -570,7 +570,7 @@
 			"assetCacheFilename":"AssetCache_40.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -584,7 +584,7 @@
 			"assetCacheFilename":"AssetCache_41.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -598,7 +598,7 @@
 			"assetCacheFilename":"AssetCache_42.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -612,7 +612,7 @@
 			"assetCacheFilename":"AssetCache_43.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -626,7 +626,7 @@
 			"assetCacheFilename":"AssetCache_44.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -640,7 +640,7 @@
 			"assetCacheFilename":"AssetCache_45.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -654,7 +654,7 @@
 			"assetCacheFilename":"AssetCache_46.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -668,7 +668,7 @@
 			"assetCacheFilename":"AssetCache_47.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -682,7 +682,7 @@
 			"assetCacheFilename":"AssetCache_48.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -696,7 +696,7 @@
 			"assetCacheFilename":"AssetCache_49.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -710,7 +710,7 @@
 			"assetCacheFilename":"AssetCache_50.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -724,7 +724,7 @@
 			"assetCacheFilename":"AssetCache_51.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -738,7 +738,7 @@
 			"assetCacheFilename":"AssetCache_52.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -752,7 +752,7 @@
 			"assetCacheFilename":"AssetCache_53.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -766,7 +766,7 @@
 			"assetCacheFilename":"AssetCache_54.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -780,7 +780,7 @@
 			"assetCacheFilename":"AssetCache_55.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -794,7 +794,7 @@
 			"assetCacheFilename":"AssetCache_56.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -808,7 +808,7 @@
 			"assetCacheFilename":"AssetCache_57.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -822,7 +822,7 @@
 			"assetCacheFilename":"AssetCache_58.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -836,7 +836,7 @@
 			"assetCacheFilename":"AssetCache_59.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -850,7 +850,7 @@
 			"assetCacheFilename":"AssetCache_60.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -864,7 +864,7 @@
 			"assetCacheFilename":"AssetCache_61.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -878,7 +878,7 @@
 			"assetCacheFilename":"AssetCache_62.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -892,7 +892,7 @@
 			"assetCacheFilename":"AssetCache_63.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -906,7 +906,7 @@
 			"assetCacheFilename":"AssetCache_64.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -920,7 +920,7 @@
 			"assetCacheFilename":"AssetCache_65.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -934,7 +934,7 @@
 			"assetCacheFilename":"AssetCache_66.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -948,7 +948,7 @@
 			"assetCacheFilename":"AssetCache_67.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -962,7 +962,7 @@
 			"assetCacheFilename":"AssetCache_68.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -976,7 +976,7 @@
 			"assetCacheFilename":"AssetCache_69.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -990,7 +990,7 @@
 			"assetCacheFilename":"AssetCache_70.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1004,7 +1004,7 @@
 			"assetCacheFilename":"AssetCache_71.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1018,7 +1018,7 @@
 			"assetCacheFilename":"AssetCache_72.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1032,7 +1032,7 @@
 			"assetCacheFilename":"AssetCache_73.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1046,7 +1046,7 @@
 			"assetCacheFilename":"AssetCache_74.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1060,7 +1060,7 @@
 			"assetCacheFilename":"AssetCache_75.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1074,7 +1074,7 @@
 			"assetCacheFilename":"AssetCache_76.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1088,7 +1088,7 @@
 			"assetCacheFilename":"AssetCache_77.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1102,7 +1102,7 @@
 			"assetCacheFilename":"AssetCache_78.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1116,7 +1116,7 @@
 			"assetCacheFilename":"AssetCache_79.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1130,7 +1130,7 @@
 			"assetCacheFilename":"AssetCache_80.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1144,7 +1144,7 @@
 			"assetCacheFilename":"AssetCache_81.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1158,7 +1158,7 @@
 			"assetCacheFilename":"AssetCache_82.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1172,7 +1172,7 @@
 			"assetCacheFilename":"AssetCache_83.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1186,7 +1186,7 @@
 			"assetCacheFilename":"AssetCache_84.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1200,7 +1200,7 @@
 			"assetCacheFilename":"AssetCache_85.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1214,7 +1214,7 @@
 			"assetCacheFilename":"AssetCache_86.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1228,7 +1228,7 @@
 			"assetCacheFilename":"AssetCache_87.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1242,7 +1242,7 @@
 			"assetCacheFilename":"AssetCache_88.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1256,7 +1256,7 @@
 			"assetCacheFilename":"AssetCache_89.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1270,7 +1270,7 @@
 			"assetCacheFilename":"AssetCache_90.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1284,7 +1284,7 @@
 			"assetCacheFilename":"AssetCache_91.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1298,7 +1298,7 @@
 			"assetCacheFilename":"AssetCache_92.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1312,7 +1312,7 @@
 			"assetCacheFilename":"AssetCache_93.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1326,7 +1326,7 @@
 			"assetCacheFilename":"AssetCache_94.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1340,7 +1340,7 @@
 			"assetCacheFilename":"AssetCache_95.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1354,7 +1354,7 @@
 			"assetCacheFilename":"AssetCache_96.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1368,7 +1368,7 @@
 			"assetCacheFilename":"AssetCache_97.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1382,7 +1382,7 @@
 			"assetCacheFilename":"AssetCache_98.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1396,7 +1396,7 @@
 			"assetCacheFilename":"AssetCache_99.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1410,7 +1410,7 @@
 			"assetCacheFilename":"AssetCache_100.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1424,7 +1424,7 @@
 			"assetCacheFilename":"AssetCache_101.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1438,7 +1438,7 @@
 			"assetCacheFilename":"AssetCache_102.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1452,7 +1452,7 @@
 			"assetCacheFilename":"AssetCache_103.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1466,7 +1466,7 @@
 			"assetCacheFilename":"AssetCache_104.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1480,7 +1480,7 @@
 			"assetCacheFilename":"AssetCache_105.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":0.2,\"unitsPerPixelY\":0.2,\"unitsPerPixelZ\":0.2,\"spriteSheet\":\"SampleFont\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":10,\"allowAdditiveTrimBuffer\":true,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":false,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleFont.ttf"
 				}
@@ -1592,12 +1592,12 @@
 			"assetCacheFilename":"AssetCache_106.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"none\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"SampleParticles\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleParticles/SampleParticle.png"
 				},
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"SampleParticles\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/SampleParticles/SampleParticle2.png"
 				}
@@ -1615,49 +1615,49 @@
 			"assetCacheFilename":"AssetCache_107.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
-					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
-					"filePath":"Assets/SampleAssets/icons/icon_caret.png"
-				},
-				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_checkmark.png"
 				},
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
-					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
-					"filePath":"Assets/SampleAssets/icons/icon_ex.png"
-				},
-				{
-					"fileDate":"2025.12.29.17.47.48.0000",
-					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
-					"filePath":"Assets/SampleAssets/icons/icon_magnifyingglass.png"
-				},
-				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_minus.png"
 				},
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/SampleAssets/icons/icon_caret.png"
+				},
+				{
+					"fileDate":"2025.12.31.13.22.45.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/SampleAssets/icons/icon_sliderarrowsapart.png"
+				},
+				{
+					"fileDate":"2025.12.31.13.22.45.0000",
+					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
+					"filePath":"Assets/SampleAssets/icons/icon_ex.png"
+				},
+				{
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/SampleAssets/icons/icon_sliderarrows.png"
 				},
 				{
-					"fileDate":"2025.12.29.17.47.48.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":true,\"shapifyOptimizationLevel\":0.5,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"icons_sheet\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
-					"filePath":"Assets/SampleAssets/icons/icon_sliderarrowsapart.png"
+					"filePath":"Assets/SampleAssets/icons/icon_magnifyingglass.png"
 				}
 			],
 			"spriteSheetMembers":[
-				"incr_image/icon_caret",
 				"incr_image/icon_checkmark",
-				"incr_image/icon_ex",
-				"incr_image/icon_magnifyingglass",
 				"incr_image/icon_minus",
+				"incr_image/icon_caret",
+				"incr_image/icon_sliderarrowsapart",
+				"incr_image/icon_ex",
 				"incr_image/icon_sliderarrows",
-				"incr_image/icon_sliderarrowsapart"
+				"incr_image/icon_magnifyingglass"
 			]
 		},
 		"incr_construct/MenuConstruct/assetPackageScale-ALL_language-ALL_soundQuality-ALL":{
@@ -1668,7 +1668,7 @@
 			"assetCacheFilename":"AssetCache_113.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.31.20.35.29.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/MenuConstruct.construct"
 				}
@@ -1682,7 +1682,7 @@
 			"assetCacheFilename":"AssetCache_114.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.30.02.16.26.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/Logo.png"
 				}
@@ -1696,7 +1696,7 @@
 			"assetCacheFilename":"AssetCache_115.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.30.17.37.37.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/Eyes.png"
 				}
@@ -1710,7 +1710,7 @@
 			"assetCacheFilename":"AssetCache_117.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.30.17.47.24.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/pickupCoin.wav"
 				}
@@ -1724,7 +1724,7 @@
 			"assetCacheFilename":"AssetCache_119.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.30.23.39.32.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/EyesClosed.png"
 				}
@@ -1738,7 +1738,7 @@
 			"assetCacheFilename":"AssetCache_120.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.31.00.06.54.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/RightEye.png"
 				}
@@ -1752,7 +1752,7 @@
 			"assetCacheFilename":"AssetCache_121.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.31.00.08.01.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/LeftEye.png"
 				}
@@ -1766,7 +1766,7 @@
 			"assetCacheFilename":"AssetCache_122.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.31.17.19.33.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/skullicon.png"
 				}
@@ -1780,7 +1780,7 @@
 			"assetCacheFilename":"AssetCache_123.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.31.20.05.22.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/mobaradev-logo.png"
 				}
@@ -1794,7 +1794,7 @@
 			"assetCacheFilename":"AssetCache_124.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.31.19.57.37.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/incisor-logo.png"
 				}
@@ -1808,7 +1808,7 @@
 			"assetCacheFilename":"AssetCache_133.json",
 			"assetFileDependancies":[
 				{
-					"fileDate":"2025.12.31.21.01.10.0000",
+					"fileDate":"2025.12.31.13.22.45.0000",
 					"inheritedNcData":"{\"docFormatVersion\":0,\"loadingTier\":100,\"includeWhenBuilt\":true,\"assetConfigurationFilters\":{},\"imageConfigurations\":{\"shapify\":false,\"shapifyOptimizationLevel\":0.85,\"shapifyEdgeRange\":10,\"trimMode\":\"hugged\",\"pivotPointOffsetX\":0,\"pivotPointOffsetY\":0,\"pivotPointOffsetZ\":0,\"resolutionScaleX\":1,\"resolutionScaleY\":1,\"unitsPerPixelX\":1,\"unitsPerPixelY\":1,\"unitsPerPixelZ\":1,\"spriteSheet\":\"\",\"spriteSheetPlacementBuffer\":2,\"spriteSheetDimensionLimit\":2048,\"alphaThreshold\":0.015,\"trimBuffer\":2,\"allowAdditiveTrimBuffer\":false,\"compression\":\"paletted\",\"upscalingMode\":\"linear\",\"downscalingMode\":\"linear\",\"wrapModeH\":\"clamp\",\"wrapModeV\":\"clamp\",\"mirroring\":\"none\",\"applyAssetPackageScaling\":true,\"premultiplyAlpha\":true,\"imageScalingAffectsHugging\":false},\"fontFamily\":\"\",\"typeFontScale\":5,\"allowDuplicateRemoval\":true}",
 					"filePath":"Assets/ParticleSystem2.particleSysDef"
 				}
