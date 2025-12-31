@@ -76,6 +76,22 @@ class GameScene {
             }
         }
 
+        this.levels[this.currentLevel].fillColor.red = 1;
+        this.levels[this.currentLevel].fillColor.green = 1;
+        this.levels[this.currentLevel].fillColor.blue = 1;
+
+        this.levels[this.currentLevel+1].fillColor.red = 0.2;
+        this.levels[this.currentLevel+1].fillColor.green = 0.2;
+        this.levels[this.currentLevel+1].fillColor.blue = 0.2;
+
+        this.levels[this.currentLevel+2].fillColor.red = 0.1;
+        this.levels[this.currentLevel+2].fillColor.green = 0.1;
+        this.levels[this.currentLevel+2].fillColor.blue = 0.1;
+
+        this.levels[this.currentLevel+3].fillColor.red = 0.06;
+        this.levels[this.currentLevel+3].fillColor.green = 0.06;
+        this.levels[this.currentLevel+3].fillColor.blue = 0.06;
+
         this.levelNumbers[0] = new TextAssembly();
         this.levelNumbers[0].string = "" + (1 + this.currentLevel);
         this.levelNumbers[0].position.x = -850;
@@ -124,6 +140,12 @@ class GameScene {
 
         this.pastSelections = [];
 
+        this.startInfoText = new TextAssembly();
+        this.startInfoText.string = "Press SPACE to hit";
+        this.startInfoText.position.x = 0;
+        this.startInfoText.position.y = -180;
+        this._startInfoTextFadeDown = true;
+
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
     }
@@ -135,6 +157,12 @@ class GameScene {
         this.pastPlayerSizes.push(this.selection.scale.x);
 
         if (Math.abs(this.playerPositionX - this.correctX) < 1000) {
+
+            if (this.startInfoText) {
+                this.startInfoText.dispose();
+                this.startInfoText = null;
+            }
+
             let pastLevelNumber = new TextAssembly();
             pastLevelNumber.string = "" + (this.currentLevel + 1);
             pastLevelNumber.position.x = -850;
@@ -271,6 +299,16 @@ class GameScene {
         this.pastSelections.forEach(pastSelection => {
             if (pastSelection.colorMultiply.alpha > 0.3) pastSelection.colorMultiply.alpha -= 1/60;
         });
+
+        if (this.startInfoText) {
+            if (this._startInfoTextFadeDown) {
+                this.startInfoText.colorMultiply.alpha -= 1/60;
+            if (this.startInfoText.colorMultiply.alpha <= 0.0) setTimeout(() => {this._startInfoTextFadeDown = false}, 100);
+            } else {
+                this.startInfoText.colorMultiply.alpha += 1/60;
+                if (this.startInfoText.colorMultiply.alpha >= 1.0) setTimeout(() => {this._startInfoTextFadeDown = true}, 350);
+            }
+        }
     }
 
     getRandomInt(min, max) {
