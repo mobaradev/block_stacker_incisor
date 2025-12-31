@@ -47,10 +47,6 @@ class GameScene {
         this.points = 0;
         this.correctX = 0;
 
-        this.text = new TextAssembly();
-        this.text.position.addMotion.x(-900, -850);
-        this.text.parent = nc.cameras.MainCamera;
-
         this.currentLevel = 0;
 
         this.p = new ParticleSystem();
@@ -59,8 +55,10 @@ class GameScene {
         this.breakParticle.subLayer = 1;
 
         this.levels = [];
+        this.levelNumbers = [];
+        this.pastLevelNumbers = [];
 
-        for (let i = 0; i < 30; i++) {
+        for (let i = 0; i < 128; i++) {
             this.levels[i] = new GraphicObject();
             this.levels[i].position.y = 150 * (0 + i);
             this.levels[i].scale.x = 15;
@@ -71,6 +69,29 @@ class GameScene {
                 this.levels[i].fillColor.blue = 0.0;
             }
         }
+
+        this.levelNumbers[0] = new TextAssembly();
+        this.levelNumbers[0].string = "" + (1 + this.currentLevel);
+        this.levelNumbers[0].position.x = -850;
+        this.levelNumbers[0].position.y = 150 * this.currentLevel;
+
+        this.levelNumbers[1] = new TextAssembly();
+        this.levelNumbers[1].string = "" + (1 + this.currentLevel + 1);
+        this.levelNumbers[1].position.x = -850;
+        this.levelNumbers[1].position.y = 150 * (this.currentLevel + 1);
+        this.levelNumbers[1].textFormat.characterMaterial.colorMultiply.alpha = 0.4;
+
+        this.levelNumbers[2] = new TextAssembly();
+        this.levelNumbers[2].string = "" + (1 + this.currentLevel + 2);
+        this.levelNumbers[2].position.x = -850;
+        this.levelNumbers[2].position.y = 150 * (this.currentLevel + 2);
+        this.levelNumbers[2].textFormat.characterMaterial.colorMultiply.alpha = 0.2;
+
+        this.levelNumbers[3] = new TextAssembly();
+        this.levelNumbers[3].string = "" + (1 + this.currentLevel + 3);
+        this.levelNumbers[3].position.x = -850;
+        this.levelNumbers[3].position.y = 150 * (this.currentLevel + 3);
+        this.levelNumbers[3].textFormat.characterMaterial.colorMultiply.alpha = 0.1;
 
         this.indicator = new GraphicObject();
         this.indicator.position.y = 150;
@@ -102,14 +123,25 @@ class GameScene {
         let deltaX = this.playerPositionX - this.correctX;
 
         if (Math.abs(this.playerPositionX - this.correctX) < 1000) {
+            let pastLevelNumber = new TextAssembly();
+            pastLevelNumber.string = "" + (this.currentLevel + 1);
+            pastLevelNumber.position.x = -850;
+            pastLevelNumber.position.y = 150 * this.currentLevel;
+
+            this.pastLevelNumbers.push(pastLevelNumber);
+
             if (Math.abs(deltaX) > 20) {
                 this.levels[this.currentLevel].fillColor.red = 0.3;
                 this.levels[this.currentLevel].fillColor.green = 0.2;
                 this.levels[this.currentLevel].fillColor.blue = 0.2;
+
+                pastLevelNumber.textFormat.characterMaterial.colorMultiply = new Color(0.3, 0.2, 0.2);
             } else {
                 this.levels[this.currentLevel].fillColor.red = 0.2;
                 this.levels[this.currentLevel].fillColor.green = 0.3;
                 this.levels[this.currentLevel].fillColor.blue = 0.2;
+
+                pastLevelNumber.textFormat.characterMaterial.colorMultiply = new Color(0.2, 0.3, 0.2);
             }
 
             // advance
@@ -148,6 +180,22 @@ class GameScene {
             this.eyesClosed.enable();
             setTimeout(() => this.eyesClosed.disable(), 100);
 
+            this.levelNumbers[0].string = "" + (1 + this.currentLevel);
+            this.levelNumbers[0].position.x = -850;
+            this.levelNumbers[0].position.y = 150 * this.currentLevel;
+
+            this.levelNumbers[1].string = "" + (1 + this.currentLevel + 1);
+            this.levelNumbers[1].position.x = -850;
+            this.levelNumbers[1].position.y = 150 * (this.currentLevel + 1);
+
+            this.levelNumbers[2].string = "" + (1 + this.currentLevel + 2);
+            this.levelNumbers[2].position.x = -850;
+            this.levelNumbers[2].position.y = 150 * (this.currentLevel + 2);
+
+            this.levelNumbers[3].string = "" + (1 + this.currentLevel + 3);
+            this.levelNumbers[3].position.x = -850;
+            this.levelNumbers[3].position.y = 150 * (this.currentLevel + 3);
+
 
         } else {
             console.log("Wrong");
@@ -176,8 +224,6 @@ class GameScene {
 
         this.indicator.position.y = this.currentLevel * 150;
         this.selection.position.y = this.currentLevel * 150;
-
-        this.text.string = "" + this.points;
 
         this.eyes.position.y = nc.mainCamera.position.y + 800;
 
@@ -265,13 +311,21 @@ class GameScene {
         this.breakParticle.dispose();
         this.indicator.dispose();
         this.selection.dispose();
-        this.text.dispose();
         this.eyes.dispose();
         this.leftEye.dispose();
         this.rightEye.dispose();
+        this.eyesClosed.dispose();
         for (let i = 0; i < 30; i++) {
             this.levels[i].dispose();
         }
+
+        this.levelNumbers.forEach(number => {
+            number.dispose();
+        });
+
+        this.pastLevelNumbers.forEach(number => {
+            number.dispose();
+        });
 
         this.fadeImg.dispose();
         this.event1.removeCallback(this, "update");
