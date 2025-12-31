@@ -146,6 +146,10 @@ class GameScene {
         this.startInfoText.position.y = -180;
         this._startInfoTextFadeDown = true;
 
+        this.gameOverParticle = new ParticleSystem();
+        this.gameOverParticle.definition = nc.particleSystemDefs.ParticleSystem2;
+        this.gameOverParticle.subLayer = 10;
+
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
     }
@@ -203,6 +207,10 @@ class GameScene {
                 pastSelection.subLayer = 1;
 
                 this.pastSelections.push(pastSelection);
+
+                this.gameOverParticle.position.x = this.selection.position.x;
+                this.gameOverParticle.position.y = this.selection.position.y;
+                this.gameOverParticle.playbackController.playOnce();
 
              
             } else {
@@ -345,6 +353,8 @@ class GameScene {
                 }
                 localStorage.setItem("lastScore", this.currentLevel);
 
+
+
                 setTimeout(() => {
                     this.deactivateObjects();
                     this.projectMain.showGameResults(this.pastPlayerSizes);
@@ -439,6 +449,8 @@ class GameScene {
         this.pastSelections.forEach(selection => {
             selection.dispose();
         });
+
+        this.gameOverParticle.dispose();
 
         // this.fadeImg.dispose();
         this.fadeEffect.deactivate();

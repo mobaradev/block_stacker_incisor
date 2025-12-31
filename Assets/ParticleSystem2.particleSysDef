@@ -1,0 +1,7 @@
+{
+	"particleInfo":[
+		{"type":"ParticleInfo","graphicAsset":"skullicon","particlesPerSecond":100,"scale":1}
+	],
+	"particleLifetime":0.75,
+	"customEmitterShapeExpression":"value = vec2(0.0);"
+}

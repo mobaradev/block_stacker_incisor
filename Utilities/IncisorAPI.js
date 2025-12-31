@@ -547,7 +547,11 @@ this.effectNodes = {
 /** One of the currently defined EffectNodes.
  * @type {EffectNode}
  */
-"MainParticleSystemParticleSystemEffectNode":null
+"MainParticleSystemParticleSystemEffectNode":null,
+/** One of the currently defined EffectNodes.
+ * @type {EffectNode}
+ */
+"ParticleSystem2ParticleSystemEffectNode":null
 
 };
 
@@ -1073,7 +1077,11 @@ this.geometries = {
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
-"ParticleSystemGeometry_MainParticleSystem":null
+"ParticleSystemGeometry_MainParticleSystem":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"ParticleSystemGeometry_ParticleSystem2":null
 
 };
 
@@ -1662,7 +1670,11 @@ this.particleSystemDefs = {
     /** One of the currently defined ParticleSystemDefinitions.
  * @type {ParticleSystemDefinition}
  */
-"MainParticleSystem":null
+"MainParticleSystem":null,
+/** One of the currently defined ParticleSystemDefinitions.
+ * @type {ParticleSystemDefinition}
+ */
+"ParticleSystem2":null
 
 };
 
@@ -14188,19 +14200,6 @@ constructor()
 this["DefaultLayer"] = new Layer();
 }
 }
-/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
- * [NON-INSTANTIABLE]
- */
-class LayersInScene2
-{
-constructor()
-{
-/** Layer within the 'Construct Editor Scene: MenuConstruct' Scene.
- * @type {Layer}
- */
-this["DefaultLayer"] = new Layer();
-}
-}
 
 
 
@@ -14219,10 +14218,6 @@ this["MainScene"] = new LayersInScene0();
  * @type {LayersInScene1}
  */
 this["incr_textRenderingScene"] = new LayersInScene1();
-/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
- * @type {LayersInScene2}
- */
-this["Construct Editor Scene: MenuConstruct"] = new LayersInScene2();
 
     }
 }

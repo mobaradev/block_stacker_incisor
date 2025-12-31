@@ -10,16 +10,10 @@
 							{
 								"subPanels":[
 									{"subPanels":[],"panelType":"Object","isColumns":true,"divisionLocation":0.5,"stateInfo":""},
-									{
-										"subPanels":[],
-										"panelType":"Construct",
-										"isColumns":true,
-										"divisionLocation":0.5,
-										"stateInfo":"{\"targetConstructName\":\"MenuConstruct\"}"
-									}
+									{"subPanels":[],"panelType":"Particle System","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
 								],
 								"isColumns":false,
-								"divisionLocation":0.25575587940516753,
+								"divisionLocation":0.46490745393752425,
 								"stateInfo":""
 							},
 							{"subPanels":[],"panelType":"Hierarchy","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
@@ -45,7 +39,7 @@
 		"divisionLocation":0.45836782560706396,
 		"stateInfo":""
 	},
-	"selectionState":{"sceneObject":["[[-1,\"Construct Editor Scene: MenuConstruct\"],[0,\"MenuConstruct\"],[5,\"incisor-logo\"]]"]},
+	"selectionState":{"sceneObject":["[[-1,\"MainScene\"]]"]},
 	"hierarchyExpansionInfo":{
 		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[2,\"MenuConstruct\"]]","[[-1,\"MainScene\"]]"],
 		"Construct Editor Scene: MenuConstruct":[

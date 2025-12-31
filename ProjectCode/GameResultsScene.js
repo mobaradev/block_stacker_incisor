@@ -10,6 +10,8 @@ class GameResultsScene {
         this.fadeEffect = new FadeEffect();
         this.fadeEffect.fadeOut();
 
+        this.gameOverParticle = new ParticleSystem();
+
         this.isLoadingNextScene = false;
 
         this.selections = [];
@@ -109,6 +111,16 @@ class GameResultsScene {
 
         if (this.skull.colorMultiply.alpha < 1) {
             this.skull.colorMultiply.alpha += 1/60;
+
+            if (this.skull.colorMultiply.alpha >= 0.025 && !this.visualizationCompleted) {
+                this.gameOverParticle.definition = nc.particleSystemDefs.ParticleSystem2;
+                this.gameOverParticle.subLayer = 10;
+                this.gameOverParticle.position.x = -401;
+                this.gameOverParticle.position.y = -800 + this.sizes.length * 60 + 20;
+                this.gameOverParticle.playbackController.playOnce();
+
+                this.visualizationCompleted = true;
+            }
         }
     }
 
@@ -122,5 +134,6 @@ class GameResultsScene {
         this.skull.dispose();
         this.scoreText.dispose();
         this.event1.removeCallback(this, "update");
+        this.gameOverParticle.dispose();
     }
 }
