@@ -609,14 +609,6 @@ this.geometries = {
     /** One of the currently defined Geometries.
  * @type {Geometry}
  */
-"LeftEye":null,
-/** One of the currently defined Geometries.
- * @type {Geometry}
- */
-"RightEye":null,
-/** One of the currently defined Geometries.
- * @type {Geometry}
- */
 "SampleParticle2":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
@@ -1037,7 +1029,15 @@ this.geometries = {
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
+"RightEye":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
 "Logo":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
+"LeftEye":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
  */
@@ -1077,14 +1077,6 @@ this.graphicAssets = {
     /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
-"LeftEye":null,
-/** One of the currently defined GraphicAssets.
- * @type {GraphicAsset}
- */
-"RightEye":null,
-/** One of the currently defined GraphicAssets.
- * @type {GraphicAsset}
- */
 "SampleParticle2":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
@@ -1505,7 +1497,15 @@ this.graphicAssets = {
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
+"RightEye":null,
+/** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
 "Logo":null,
+/** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"LeftEye":null,
 /** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
@@ -2265,14 +2265,6 @@ this.textures = {
 /** One of the currently defined Textures.
  * @type {Texture}
  */
-"LeftEye":null,
-/** One of the currently defined Textures.
- * @type {Texture}
- */
-"RightEye":null,
-/** One of the currently defined Textures.
- * @type {Texture}
- */
 "SampleParticle2":null,
 /** One of the currently defined Textures.
  * @type {Texture}
@@ -2321,7 +2313,15 @@ this.textures = {
 /** One of the currently defined Textures.
  * @type {Texture}
  */
+"RightEye":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
 "Logo":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"LeftEye":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */

@@ -5,8 +5,11 @@ class MenuScene {
     init() {
         nc.mainCamera.backgroundColor = new Color(0, 0, 0);
         this.isLoadingLevel = false;
+
+        this.fadeEffect = new FadeEffect();
+        this.fadeEffect.fadeOut();
+
         this.menuConstruct = nc.constructDefs.MenuConstruct.add();
-        this.menuConstruct.colorMultiply.alpha = 0;
 
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
@@ -22,21 +25,9 @@ class MenuScene {
                     this.deactivateObjects();
                     this.projectMain.playGame();
                 }, 1000);
+                this.fadeEffect.fadeIn();
             }
             this.isLoadingLevel = true;
-        }
-
-
-        if (!this.isLoadingLevel && this.menuConstruct.colorMultiply.alpha < 1.0) {
-            this.menuConstruct.colorMultiply.alpha += 1/45;
-
-            if (this.menuConstruct.colorMultiply.alpha > 1.0) this.menuConstruct.colorMultiply.alpha = 1.0;
-        }
-
-        if (this.isLoadingLevel && this.menuConstruct.colorMultiply.alpha > 0.0) {
-            this.menuConstruct.colorMultiply.alpha -= 1/45;
-
-            if (this.menuConstruct.colorMultiply.alpha < 0.0) this.menuConstruct.colorMultiply.alpha = 0.0;
         }
 
         if (this._textPlayFadeDown) {
@@ -51,6 +42,8 @@ class MenuScene {
     deactivateObjects() {
         this.event1.removeCallback(this, "update");
         this.menuConstruct.dispose();
+
+        this.fadeEffect.deactivate();
         
     }
 }

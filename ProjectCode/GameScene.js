@@ -6,13 +6,16 @@ class GameScene {
     init() {
         this.isActive = true;
 
-        this.fadeImg = new GraphicObject();
-        this.fadeImg.name = "container";
-        this.fadeImg.fillColor = new Color(0,0,0,1);
-        this.fadeImg.scale.x = 1000;
-        this.fadeImg.scale.y = 1000;
-        this.fadeImg.subLayer = 100;
+        // this.fadeImg = new GraphicObject();
+        // this.fadeImg.name = "container";
+        // this.fadeImg.fillColor = new Color(0,0,0,1);
+        // this.fadeImg.scale.x = 1000;
+        // this.fadeImg.scale.y = 1000;
+        // this.fadeImg.subLayer = 100;
 
+        this.fadeEffect = new FadeEffect();
+        this.fadeEffect.fadeOut();
+        
         this.eyes = new GraphicObject(nc.graphicAssets.Eyes);
         this.eyes.scale.x = 0.4;
         this.eyes.scale.y = 0.4;
@@ -239,13 +242,6 @@ class GameScene {
     }
 
     update() {
-        if (this.isActive && this.fadeImg.colorMultiply.alpha > 0) {
-            this.fadeImg.colorMultiply.alpha -= 1/60;
-        }
-
-        if (!this.isActive && this.fadeImg.colorMultiply.alpha < 1) {
-            this.fadeImg.colorMultiply.alpha += 1/60;
-        }
         this.projectMain.cameraController.targetPositionY = 200 + this.currentLevel * 150;
         this.projectMain.cameraController.update();
         if (!this.isActive) return;
@@ -298,6 +294,7 @@ class GameScene {
             if (deltaX / 100 >= this.selection.scale.x) {
                 console.log('Game over');
                 this.isActive = false;
+                this.fadeEffect.fadeIn();
                 this.projectMain.cameraController.shake(0.7, 18);
                 setTimeout(() => {
                     this.deactivateObjects();
@@ -394,7 +391,8 @@ class GameScene {
             selection.dispose();
         });
 
-        this.fadeImg.dispose();
+        // this.fadeImg.dispose();
+        this.fadeEffect.deactivate();
         this.event1.removeCallback(this, "update");
     }
 }

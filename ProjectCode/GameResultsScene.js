@@ -6,7 +6,10 @@ class GameResultsScene {
         nc.mainCamera.backgroundColor = new Color(0, 0, 0);
         nc.mainCamera.position.y = 0;
 
-        this.isLoadingLevel = false;
+        this.fadeEffect = new FadeEffect();
+        this.fadeEffect.fadeOut();
+
+        this.isLoadingNextScene = false;
 
         let sizes = [5.0, 5.0, 4.2, 1.1, 1.1, 0.9, 0.0];
         this.selections = [];
@@ -45,16 +48,23 @@ class GameResultsScene {
     }
     update() {
         if (nc.keyDownStates[" "]) {
-            if (!this.isLoadingLevel) {
+            if (!this.isLoadingNextScene) {
+                this.fadeEffect.fadeIn();
                 setTimeout(() => {
                     this.deactivateObjects();
                     this.projectMain.playGame();
                 }, 1000);
-                this.isLoadingLevel = true;
+                this.isLoadingNextScene = true;
             }
         } else if (nc.keyDownStates["Escape"]) {
-            this.deactivateObjects();
-            this.projectMain.showMenu();
+            if (!this.isLoadingNextScene) {
+                this.fadeEffect.fadeIn();
+                setTimeout(() => {
+                    this.deactivateObjects();
+                    this.projectMain.showMenu();
+                }, 1000);
+                this.isLoadingNextScene = true;
+            }
         }
 
 
@@ -73,6 +83,7 @@ class GameResultsScene {
         });
 
         this.text.dispose();
+        this.fadeEffect.deactivate();
         this.event1.removeCallback(this, "update");
     }
 }
