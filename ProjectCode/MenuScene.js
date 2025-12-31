@@ -11,8 +11,9 @@ class MenuScene {
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
         nc.mainCamera.position.y = 0;
-        // alert('init');
-        
+
+        this.textPlay = this.menuConstruct.children.find(item => item.name == "text_play");
+        this._textPlayFadeDown = true;
     }
     update() {
         if (nc.keyDownStates[" "]) {
@@ -37,6 +38,15 @@ class MenuScene {
 
             if (this.menuConstruct.colorMultiply.alpha < 0.0) this.menuConstruct.colorMultiply.alpha = 0.0;
         }
+
+        if (this._textPlayFadeDown) {
+            this.textPlay.colorMultiply.alpha -= 1/60;
+            if (this.textPlay.colorMultiply.alpha <= 0.0) setTimeout(() => {this._textPlayFadeDown = false}, 100);
+        } else {
+            this.textPlay.colorMultiply.alpha += 1/60;
+            if (this.textPlay.colorMultiply.alpha >= 1.0) setTimeout(() => {this._textPlayFadeDown = true}, 350);
+        }
+        
     }
     deactivateObjects() {
         this.event1.removeCallback(this, "update");

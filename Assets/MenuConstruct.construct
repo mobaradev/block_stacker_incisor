@@ -9,7 +9,7 @@
 			{
 				"i":0,
 				"type":"TextBox",
-				"name":"Press SPACE to play",
+				"name":"text_play",
 				"uid":"9358853474992176",
 				"position":[0,-120,0],
 				"string":"Press SPACE to play",

@@ -5913,10 +5913,10 @@ constructor(){
 /** Dictionary of descendants of this Construct by name. Duplicate names are overwritten.
 */
 this.descendantsByName = {
-/** The 'Press SPACE to play' descendant.
+/** The 'text_play' descendant.
  * @type {TextBox}
  */
-"Press SPACE to play":null,
+"text_play":null,
 /** The 'Added GraphicObject' descendant.
  * @type {GraphicObject}
  */
