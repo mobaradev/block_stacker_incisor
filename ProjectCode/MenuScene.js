@@ -21,7 +21,7 @@ class MenuScene {
                 setTimeout(() => {
                     this.deactivateObjects();
                     this.projectMain.playGame();
-                }, 1000)
+                }, 1000);
             }
             this.isLoadingLevel = true;
         }

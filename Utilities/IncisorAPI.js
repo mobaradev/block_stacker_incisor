@@ -14123,27 +14123,27 @@ constructor()
 this["DefaultLayer"] = new Layer();
 }
 }
-/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
+/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
  * [NON-INSTANTIABLE]
  */
 class LayersInScene1
 {
 constructor()
 {
-/** Layer within the 'incr_textRenderingScene' Scene.
+/** Layer within the 'Construct Editor Scene: MenuConstruct' Scene.
  * @type {Layer}
  */
 this["DefaultLayer"] = new Layer();
 }
 }
-/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
+/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
  * [NON-INSTANTIABLE]
  */
 class LayersInScene2
 {
 constructor()
 {
-/** Layer within the 'Construct Editor Scene: MenuConstruct' Scene.
+/** Layer within the 'incr_textRenderingScene' Scene.
  * @type {Layer}
  */
 this["DefaultLayer"] = new Layer();
@@ -14163,14 +14163,14 @@ class LayersByScene
  * @type {LayersInScene0}
  */
 this["MainScene"] = new LayersInScene0();
-/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
+/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
  * @type {LayersInScene1}
  */
-this["incr_textRenderingScene"] = new LayersInScene1();
-/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
+this["Construct Editor Scene: MenuConstruct"] = new LayersInScene1();
+/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
  * @type {LayersInScene2}
  */
-this["Construct Editor Scene: MenuConstruct"] = new LayersInScene2();
+this["incr_textRenderingScene"] = new LayersInScene2();
 
     }
 }
