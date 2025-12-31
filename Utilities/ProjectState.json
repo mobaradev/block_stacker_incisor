@@ -45,9 +45,19 @@
 		"divisionLocation":0.5755553256070639,
 		"stateInfo":""
 	},
-	"selectionState":{"sceneObject":["[[-1,\"MainScene\"]]"]},
+	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]"]},
 	"hierarchyExpansionInfo":{
-		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[1,\"MenuConstruct\"]]","[[-1,\"MainScene\"]]"],
+		"MainScene":[
+			"[[-1,\"MainScene\"],[0,\"MainCamera\"]]",
+			"[[-1,\"MainScene\"],[133,\"TextAssembly\"]]",
+			"[[-1,\"MainScene\"],[134,\"TextAssembly\"]]",
+			"[[-1,\"MainScene\"],[135,\"TextAssembly\"]]",
+			"[[-1,\"MainScene\"],[136,\"TextAssembly\"]]",
+			"[[-1,\"MainScene\"],[139,\"TextAssembly\"]]",
+			"[[-1,\"MainScene\"],[140,\"TextAssembly\"]]",
+			"[[-1,\"MainScene\"],[143,\"TextAssembly\"]]",
+			"[[-1,\"MainScene\"]]"
+		],
 		"Construct Editor Scene: MenuConstruct":[
 			"[[-1,\"Construct Editor Scene: MenuConstruct\"],[0,\"MenuConstruct\"]]",
 			"[[-1,\"Construct Editor Scene: MenuConstruct\"]]"

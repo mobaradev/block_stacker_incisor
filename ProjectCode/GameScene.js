@@ -105,15 +105,19 @@ class GameScene {
 
         this.indicator.position.x = this.correctX;
 
+        this.pastIndicators = [];
+
         this.selection = new GraphicObject();
         this.selection.position.y = 150;
         this.selection.scale.x = 5;
         this.selection.scale.y = 0.8;
-        this.selection.fillColor.red = 1;
+        this.selection.fillColor.red = 0;
         this.selection.fillColor.green = 0;
-        this.selection.fillColor.blue = 1;
+        this.selection.fillColor.blue = 0;
         this.selection.subLayer = 1;
         this.selection.position.x = 0;
+
+        this.pastSelections = [];
 
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
@@ -140,6 +144,31 @@ class GameScene {
 
                 pastLevelNumber.textFormat.characterMaterial.colorMultiply = new Color(0.3, 0.2, 0.2);
 
+                let pastIndicator = new GraphicObject();
+                pastIndicator.position.x = this.indicator.position.x;
+                pastIndicator.position.y = this.currentLevel * 150;
+                pastIndicator.scale.x = this.indicator.scale.x;
+                pastIndicator.scale.y = 1.1;
+                pastIndicator.fillColor.red = .5;
+                pastIndicator.fillColor.green = 0;
+                pastIndicator.fillColor.blue = 0;
+                pastIndicator.subLayer = -1;
+
+                this.pastIndicators.push(pastIndicator);
+
+                let pastSelection = new GraphicObject();
+                pastSelection.position.x = this.selection.position.x;
+                pastSelection.position.y = this.currentLevel * 150;
+                pastSelection.scale.x = this.selection.scale.x;
+                pastSelection.scale.y = 0.8;
+                pastSelection.fillColor.red = .1;
+                pastSelection.fillColor.green = .05;
+                pastSelection.fillColor.blue = .05;
+                pastSelection.colorMultiply.alpha = 1.25;
+                pastSelection.subLayer = 1;
+
+                this.pastSelections.push(pastSelection);
+
              
             } else {
                 this.levels[this.currentLevel].fillColor.red = 0.2;
@@ -148,6 +177,8 @@ class GameScene {
 
                 pastLevelNumber.textFormat.characterMaterial.colorMultiply = new Color(0.2, 0.3, 0.2);
             }
+
+
 
             // advance
             this.resizePlayer();
@@ -236,6 +267,10 @@ class GameScene {
         this.rightEye.position.x = this.baseEyePositionX + this.selection.position.x/8;
 
         this.updatePlayerMovement();
+
+        this.pastSelections.forEach(pastSelection => {
+            if (pastSelection.colorMultiply.alpha > 0.3) pastSelection.colorMultiply.alpha -= 1/60;
+        });
     }
 
     getRandomInt(min, max) {
@@ -281,8 +316,10 @@ class GameScene {
             this.selection.scale.x = this.selection.scale.x - deltaX / 100;
 
             let pastLevelOutcomeText = new TextAssembly();
+            pastLevelOutcomeText.subLayer = 18;
             pastLevelOutcomeText.textFormat.characterMaterial.colorMultiply = new Color(0, 0, 0, 1);
             pastLevelOutcomeText.position.x = 672;
+            if (this.selection.position.x > 350) pastLevelOutcomeText.position.x = -682;
             pastLevelOutcomeText.position.y = 150 * this.currentLevel;
             pastLevelOutcomeText.textFormat.characterScaleX = 0.7;
             pastLevelOutcomeText.textFormat.characterScaleY = 0.7;
@@ -347,6 +384,14 @@ class GameScene {
 
         this.pastLevelOutcomeText.forEach(text => {
             text.dispose();
+        });
+
+        this.pastIndicators.forEach(indicator => {
+            indicator.dispose();
+        });
+
+        this.pastSelections.forEach(selection => {
+            selection.dispose();
         });
 
         this.fadeImg.dispose();
