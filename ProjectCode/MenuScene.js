@@ -17,6 +17,9 @@ class MenuScene {
 
         this.textPlay = this.menuConstruct.children.find(item => item.name == "text_play");
         this._textPlayFadeDown = true;
+
+        this.textHighScore = this.menuConstruct.children.find(item => item.name == "text_highscore");
+        this.textHighScore.string = "High score: " + (localStorage.getItem("highScore") ? localStorage.getItem("highScore") : 0);
     }
     update() {
         if (nc.keyDownStates[" "]) {

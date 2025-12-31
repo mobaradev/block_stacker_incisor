@@ -4,19 +4,10 @@ class ProjectMain {
     
     init() {
         this.cameraController = new CameraController();
-        // this.menuScene = new MenuScene(this);
-        // this.menuScene.init();
-        this.showGameResults();
+        this.menuScene = new MenuScene(this);
+        this.menuScene.init();
+        // this.showGameResults();
 
-    }
-
-    restart() {
-        delete this.gameScene;
-        // this.gameScene = new GameScene(this);
-        // this.gameScene.init();
-        // this.menuScene = new MenuScene(this);
-        // this.menuScene.init();
-        this.showGameResults();
     }
 
     playGame() {
@@ -30,9 +21,9 @@ class ProjectMain {
         this.menuScene.init();
     }
 
-    showGameResults() {
+    showGameResults(data) {
         delete this.gameScene;
-        this.gameResultsScene = new GameResultsScene(this);
+        this.gameResultsScene = new GameResultsScene(this, data);
         this.gameResultsScene.init();
     }
 }

@@ -15,7 +15,7 @@ class GameScene {
 
         this.fadeEffect = new FadeEffect();
         this.fadeEffect.fadeOut();
-        
+
         this.eyes = new GraphicObject(nc.graphicAssets.Eyes);
         this.eyes.scale.x = 0.4;
         this.eyes.scale.y = 0.4;
@@ -61,6 +61,8 @@ class GameScene {
         this.levelNumbers = [];
         this.pastLevelNumbers = [];
         this.pastLevelOutcomeText = [];
+
+        this.pastPlayerSizes = [];
 
         for (let i = 0; i < 128; i++) {
             this.levels[i] = new GraphicObject();
@@ -129,6 +131,8 @@ class GameScene {
     onHit() {
         this.playerPositionX = this.selection.position.x;
         let deltaX = this.playerPositionX - this.correctX;
+
+        this.pastPlayerSizes.push(this.selection.scale.x);
 
         if (Math.abs(this.playerPositionX - this.correctX) < 1000) {
             let pastLevelNumber = new TextAssembly();
@@ -296,9 +300,16 @@ class GameScene {
                 this.isActive = false;
                 this.fadeEffect.fadeIn();
                 this.projectMain.cameraController.shake(0.7, 18);
+
+                const prevHighScore = localStorage.getItem("highScore");
+                if (!prevHighScore || this.currentLevel > prevHighScore) {
+                    localStorage.setItem("highScore", this.currentLevel);
+                }
+                localStorage.setItem("lastScore", this.currentLevel);
+
                 setTimeout(() => {
                     this.deactivateObjects();
-                    this.projectMain.restart();
+                    this.projectMain.showGameResults(this.pastPlayerSizes);
                 }, 1000);
 
                 return;

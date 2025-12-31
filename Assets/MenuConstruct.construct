@@ -3,7 +3,8 @@
 		"type":"Blueprint",
 		"hierarchy":{
 			"0":{},
-			"1":{}
+			"1":{},
+			"2":{}
 		},
 		"objects":[
 			{
@@ -11,7 +12,7 @@
 				"type":"TextBox",
 				"name":"text_play",
 				"uid":"9358853474992176",
-				"position":[0,-120,0],
+				"position":[0.9991400948251714,-230.04704255319163,0],
 				"string":"Press SPACE to play",
 				"textFormat":{
 					"fontName":"SampleFont",
@@ -36,6 +37,22 @@
 				"materials":[
 					{"effectNodes":["SampleMainTexture","ColorMultiply"]}
 				]
+			},
+			{
+				"i":2,
+				"type":"TextAssembly",
+				"name":"text_highscore",
+				"uid":"4735631966639726",
+				"position":[0,-107.0457595744681,0],
+				"string":"Added TextAssembly...",
+				"textFormat":{
+					"fontName":"SampleFont",
+					"lineHeightMultiplier":1,
+					"characterMaterial":{
+						"effectNodes":["SampleMainTexture","Shapify","ColorMultiply"],
+						"effectControllerValues":{}
+					}
+				}
 			}
 		]
 	},

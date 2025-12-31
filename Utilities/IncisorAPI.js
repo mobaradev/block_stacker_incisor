@@ -609,6 +609,10 @@ this.geometries = {
     /** One of the currently defined Geometries.
  * @type {Geometry}
  */
+"skullicon":null,
+/** One of the currently defined Geometries.
+ * @type {Geometry}
+ */
 "SampleParticle2":null,
 /** One of the currently defined Geometries.
  * @type {Geometry}
@@ -1075,6 +1079,10 @@ this.geometries = {
  */
 this.graphicAssets = {
     /** One of the currently defined GraphicAssets.
+ * @type {GraphicAsset}
+ */
+"skullicon":null,
+/** One of the currently defined GraphicAssets.
  * @type {GraphicAsset}
  */
 "SampleParticle2":null,
@@ -2262,6 +2270,10 @@ this.textures = {
  * @type {Texture}
  */
 "SampleFont_Char0":null,
+/** One of the currently defined Textures.
+ * @type {Texture}
+ */
+"skullicon":null,
 /** One of the currently defined Textures.
  * @type {Texture}
  */
@@ -5920,7 +5932,11 @@ this.descendantsByName = {
 /** The 'Added GraphicObject' descendant.
  * @type {GraphicObject}
  */
-"Added GraphicObject":null
+"Added GraphicObject":null,
+/** The 'text_highscore' descendant.
+ * @type {TextAssembly}
+ */
+"text_highscore":null
 };
 }
 }
@@ -14123,27 +14139,27 @@ constructor()
 this["DefaultLayer"] = new Layer();
 }
 }
-/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
+/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
  * [NON-INSTANTIABLE]
  */
 class LayersInScene1
 {
 constructor()
 {
-/** Layer within the 'Construct Editor Scene: MenuConstruct' Scene.
+/** Layer within the 'incr_textRenderingScene' Scene.
  * @type {Layer}
  */
 this["DefaultLayer"] = new Layer();
 }
 }
-/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
+/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
  * [NON-INSTANTIABLE]
  */
 class LayersInScene2
 {
 constructor()
 {
-/** Layer within the 'incr_textRenderingScene' Scene.
+/** Layer within the 'Construct Editor Scene: MenuConstruct' Scene.
  * @type {Layer}
  */
 this["DefaultLayer"] = new Layer();
@@ -14163,14 +14179,14 @@ class LayersByScene
  * @type {LayersInScene0}
  */
 this["MainScene"] = new LayersInScene0();
-/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
+/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
  * @type {LayersInScene1}
  */
-this["Construct Editor Scene: MenuConstruct"] = new LayersInScene1();
-/** Dictionary of Layers in the 'incr_textRenderingScene' Scene.
+this["incr_textRenderingScene"] = new LayersInScene1();
+/** Dictionary of Layers in the 'Construct Editor Scene: MenuConstruct' Scene.
  * @type {LayersInScene2}
  */
-this["incr_textRenderingScene"] = new LayersInScene2();
+this["Construct Editor Scene: MenuConstruct"] = new LayersInScene2();
 
     }
 }

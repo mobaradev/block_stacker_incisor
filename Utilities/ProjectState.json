@@ -19,7 +19,7 @@
 									}
 								],
 								"isColumns":false,
-								"divisionLocation":0.5,
+								"divisionLocation":0.22487443887018835,
 								"stateInfo":""
 							},
 							{"subPanels":[],"panelType":"Hierarchy","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
@@ -45,7 +45,7 @@
 		"divisionLocation":0.45836782560706396,
 		"stateInfo":""
 	},
-	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[2,\"MenuConstruct\"]]"]},
+	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[2,\"MenuConstruct\"],[2,\"text_highscore\"]]"]},
 	"hierarchyExpansionInfo":{
 		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[2,\"MenuConstruct\"]]","[[-1,\"MainScene\"]]"],
 		"Construct Editor Scene: MenuConstruct":[
