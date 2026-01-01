@@ -10,13 +10,7 @@
 							{
 								"subPanels":[
 									{"subPanels":[],"panelType":"Object","isColumns":true,"divisionLocation":0.5,"stateInfo":""},
-									{
-										"subPanels":[],
-										"panelType":"Construct",
-										"isColumns":true,
-										"divisionLocation":0.5,
-										"stateInfo":"{\"targetConstructName\":\"MenuConstruct\"}"
-									}
+									{"subPanels":[],"panelType":"Particle System","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
 								],
 								"isColumns":false,
 								"divisionLocation":0.3469117313365105,
@@ -45,13 +39,9 @@
 		"divisionLocation":0.5172302594694977,
 		"stateInfo":""
 	},
-	"selectionState":{"sceneObject":[]},
+	"selectionState":{"sceneObject":["[[-1,\"MainScene\"],[2,\"MenuConstruct\"]]"]},
 	"hierarchyExpansionInfo":{
-		"MainScene":[
-			"[[-1,\"MainScene\"],[0,\"MainCamera\"]]",
-			"[[-1,\"MainScene\"],[0,\"MainCamera\"],[0,\"TextAssembly\"]]",
-			"[[-1,\"MainScene\"]]"
-		],
+		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[5,\"GraphicObject\"]]","[[-1,\"MainScene\"]]"],
 		"Construct Editor Scene: MenuConstruct":[
 			"[[-1,\"Construct Editor Scene: MenuConstruct\"],[0,\"MenuConstruct\"]]",
 			"[[-1,\"Construct Editor Scene: MenuConstruct\"]]"

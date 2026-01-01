@@ -76,6 +76,12 @@ class OnlineGameResultsScene {
         this.allPlayerScoresText.position.x = 400;
         this.allPlayerScoresText.position.y = -200;
 
+        this.scoreParticle = new ParticleSystem();
+        this.scoreParticle.definition = nc.particleSystemDefs.FountainParticleDefinition;
+        this.scoreParticle.subLayer = 10;
+        this.scoreParticle.position.x = 400;
+        this.scoreParticle.position.y = 200;
+        this.scoreParticle.playbackController.play();
 
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
@@ -143,5 +149,6 @@ class OnlineGameResultsScene {
         this.event1.removeCallback(this, "update");
         this.gameOverParticle.dispose();
         this.allPlayerScoresText.dispose();
+        this.scoreParticle.dispose();
     }
 }

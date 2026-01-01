@@ -80,17 +80,17 @@ class GameScene {
         this.levels[this.currentLevel].fillColor.green = 1;
         this.levels[this.currentLevel].fillColor.blue = 1;
 
-        this.levels[this.currentLevel+1].fillColor.red = 0.2;
-        this.levels[this.currentLevel+1].fillColor.green = 0.2;
-        this.levels[this.currentLevel+1].fillColor.blue = 0.2;
+        this.levels[this.currentLevel + 1].fillColor.red = 0.2;
+        this.levels[this.currentLevel + 1].fillColor.green = 0.2;
+        this.levels[this.currentLevel + 1].fillColor.blue = 0.2;
 
-        this.levels[this.currentLevel+2].fillColor.red = 0.1;
-        this.levels[this.currentLevel+2].fillColor.green = 0.1;
-        this.levels[this.currentLevel+2].fillColor.blue = 0.1;
+        this.levels[this.currentLevel + 2].fillColor.red = 0.1;
+        this.levels[this.currentLevel + 2].fillColor.green = 0.1;
+        this.levels[this.currentLevel + 2].fillColor.blue = 0.1;
 
-        this.levels[this.currentLevel+3].fillColor.red = 0.06;
-        this.levels[this.currentLevel+3].fillColor.green = 0.06;
-        this.levels[this.currentLevel+3].fillColor.blue = 0.06;
+        this.levels[this.currentLevel + 3].fillColor.red = 0.06;
+        this.levels[this.currentLevel + 3].fillColor.green = 0.06;
+        this.levels[this.currentLevel + 3].fillColor.blue = 0.06;
 
         this.levelNumbers[0] = new TextAssembly();
         this.levelNumbers[0].string = "" + (1 + this.currentLevel);
@@ -212,7 +212,7 @@ class GameScene {
                 this.gameOverParticle.position.y = this.selection.position.y;
                 this.gameOverParticle.playbackController.playOnce();
 
-             
+
             } else {
                 this.levels[this.currentLevel].fillColor.red = 0.2;
                 this.levels[this.currentLevel].fillColor.green = 0.3;
@@ -240,17 +240,17 @@ class GameScene {
             this.levels[this.currentLevel].fillColor.green = 1;
             this.levels[this.currentLevel].fillColor.blue = 1;
 
-            this.levels[this.currentLevel+1].fillColor.red = 0.2;
-            this.levels[this.currentLevel+1].fillColor.green = 0.2;
-            this.levels[this.currentLevel+1].fillColor.blue = 0.2;
+            this.levels[this.currentLevel + 1].fillColor.red = 0.2;
+            this.levels[this.currentLevel + 1].fillColor.green = 0.2;
+            this.levels[this.currentLevel + 1].fillColor.blue = 0.2;
 
-            this.levels[this.currentLevel+2].fillColor.red = 0.1;
-            this.levels[this.currentLevel+2].fillColor.green = 0.1;
-            this.levels[this.currentLevel+2].fillColor.blue = 0.1;
+            this.levels[this.currentLevel + 2].fillColor.red = 0.1;
+            this.levels[this.currentLevel + 2].fillColor.green = 0.1;
+            this.levels[this.currentLevel + 2].fillColor.blue = 0.1;
 
-            this.levels[this.currentLevel+3].fillColor.red = 0.06;
-            this.levels[this.currentLevel+3].fillColor.green = 0.06;
-            this.levels[this.currentLevel+3].fillColor.blue = 0.06;
+            this.levels[this.currentLevel + 3].fillColor.red = 0.06;
+            this.levels[this.currentLevel + 3].fillColor.green = 0.06;
+            this.levels[this.currentLevel + 3].fillColor.blue = 0.06;
 
             this.breakParticle.position.x = this.selection.position.x;
             this.breakParticle.position.y = this.selection.position.y;
@@ -299,22 +299,22 @@ class GameScene {
 
         this.eyes.position.y = nc.mainCamera.position.y + 800;
 
-        this.leftEye.position.x = -this.baseEyePositionX + this.selection.position.x/8;
-        this.rightEye.position.x = this.baseEyePositionX + this.selection.position.x/8;
+        this.leftEye.position.x = -this.baseEyePositionX + this.selection.position.x / 8;
+        this.rightEye.position.x = this.baseEyePositionX + this.selection.position.x / 8;
 
         this.updatePlayerMovement();
 
         this.pastSelections.forEach(pastSelection => {
-            if (pastSelection.colorMultiply.alpha > 0.3) pastSelection.colorMultiply.alpha -= 1/60;
+            if (pastSelection.colorMultiply.alpha > 0.3) pastSelection.colorMultiply.alpha -= 1 / 60;
         });
 
         if (this.startInfoText) {
             if (this._startInfoTextFadeDown) {
-                this.startInfoText.colorMultiply.alpha -= 1/60;
-            if (this.startInfoText.colorMultiply.alpha <= 0.0) setTimeout(() => {this._startInfoTextFadeDown = false}, 100);
+                this.startInfoText.colorMultiply.alpha -= 1 / 60;
+                if (this.startInfoText.colorMultiply.alpha <= 0.0) setTimeout(() => { this._startInfoTextFadeDown = false }, 100);
             } else {
-                this.startInfoText.colorMultiply.alpha += 1/60;
-                if (this.startInfoText.colorMultiply.alpha >= 1.0) setTimeout(() => {this._startInfoTextFadeDown = true}, 350);
+                this.startInfoText.colorMultiply.alpha += 1 / 60;
+                if (this.startInfoText.colorMultiply.alpha >= 1.0) setTimeout(() => { this._startInfoTextFadeDown = true }, 350);
             }
         }
     }
@@ -364,7 +364,7 @@ class GameScene {
             }
 
             this.projectMain.cameraController.shake(0.25, 10);
-            
+
             const oldScale = this.indicator.scale.x;
             const newScale = this.indicator.scale.x - deltaX / 100;
 
@@ -379,9 +379,11 @@ class GameScene {
             pastLevelOutcomeText.position.y = 150 * this.currentLevel;
             pastLevelOutcomeText.textFormat.characterScaleX = 0.7;
             pastLevelOutcomeText.textFormat.characterScaleY = 0.7;
-            pastLevelOutcomeText.string = "-" + parseInt(100*(oldScale - newScale)/oldScale) + "%";
+            pastLevelOutcomeText.string = "-" + parseInt(100 * (oldScale - newScale) / oldScale) + "%";
 
-            this.pastLevelOutcomeText.push(pastLevelOutcomeText);   
+            this.pastLevelOutcomeText.push(pastLevelOutcomeText);
+
+            nc.sounds.hitHurt.playOnce();
         } else {
             // nc.sounds.Beep.playOnce();
             nc.sounds.pickupCoin.playOnce();

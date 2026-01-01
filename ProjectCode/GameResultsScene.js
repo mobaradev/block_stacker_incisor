@@ -23,7 +23,7 @@ class GameResultsScene {
             selection.scale.x = this.sizes[i];
             selection.scale.y = 0.5;
 
-            selection.fillColor.alpha = 0 - (30 * i)/100;
+            selection.fillColor.alpha = 0 - (30 * i) / 100;
 
             if (i == 0) {
                 selection.fillColor.red = 1;
@@ -32,7 +32,7 @@ class GameResultsScene {
                 selection.scale.y = 0.16;
                 selection.position.y += 16;
             }
-            else if (this.sizes[i] == 5.0 || this.sizes[i-1] == this.sizes[i]) {
+            else if (this.sizes[i] == 5.0 || this.sizes[i - 1] == this.sizes[i]) {
                 selection.fillColor.red = .05;
                 selection.fillColor.green = .5;
                 selection.fillColor.blue = .05;
@@ -52,7 +52,7 @@ class GameResultsScene {
         this.skull.scale.x = 0.38;
         this.skull.scale.y = 0.32;
         this.skull.subLayer = 1;
-        this.skull.colorMultiply.alpha = 0 - (30 * this.sizes.length)/100;
+        this.skull.colorMultiply.alpha = 0 - (30 * this.sizes.length) / 100;
 
         this._textFadeDown = true;
 
@@ -67,8 +67,15 @@ class GameResultsScene {
         this.scoreText.string = "" + localStorage.getItem("lastScore");
         this.scoreText.position.x = 400;
         this.scoreText.position.y = 200;
-        this.scoreText.textFormat.characterScaleX = 2;
-        this.scoreText.textFormat.characterScaleY = 2;
+        this.scoreText.textFormat.characterScaleX = 3;
+        this.scoreText.textFormat.characterScaleY = 3;
+
+        this.scoreParticle = new ParticleSystem();
+        this.scoreParticle.definition = nc.particleSystemDefs.FountainParticleDefinition;
+        this.scoreParticle.subLayer = 10;
+        this.scoreParticle.position.x = 400;
+        this.scoreParticle.position.y = 200;
+        this.scoreParticle.playbackController.play();
 
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
@@ -96,21 +103,21 @@ class GameResultsScene {
 
 
         if (this._textFadeDown) {
-            this.text.colorMultiply.alpha -= 1/60;
-            if (this.text.colorMultiply.alpha <= 0.0) setTimeout(() => {this._textFadeDown = false}, 100);
+            this.text.colorMultiply.alpha -= 1 / 60;
+            if (this.text.colorMultiply.alpha <= 0.0) setTimeout(() => { this._textFadeDown = false }, 100);
         } else {
-            this.text.colorMultiply.alpha += 1/60;
-            if (this.text.colorMultiply.alpha >= 1.0) setTimeout(() => {this._textFadeDown = true}, 350);
+            this.text.colorMultiply.alpha += 1 / 60;
+            if (this.text.colorMultiply.alpha >= 1.0) setTimeout(() => { this._textFadeDown = true }, 350);
         }
 
         this.selections.forEach(selection => {
             if (selection.fillColor.alpha < 1) {
-                selection.fillColor.alpha += 1/60;
+                selection.fillColor.alpha += 1 / 60;
             }
         });
 
         if (this.skull.colorMultiply.alpha < 1) {
-            this.skull.colorMultiply.alpha += 1/60;
+            this.skull.colorMultiply.alpha += 1 / 60;
 
             if (this.skull.colorMultiply.alpha >= 0.025 && !this.visualizationCompleted) {
                 this.gameOverParticle.definition = nc.particleSystemDefs.ParticleSystem2;
@@ -135,5 +142,6 @@ class GameResultsScene {
         this.scoreText.dispose();
         this.event1.removeCallback(this, "update");
         this.gameOverParticle.dispose();
+        this.scoreParticle.dispose();
     }
 }

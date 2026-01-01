@@ -31,7 +31,7 @@ class OnlineGameScene {
 
         this.leftEye = new GraphicObject(nc.graphicAssets.RightEye, this.eyes);
         this.leftEye.fillColor = new Color(0, 0, 0, 1);
-        this.leftEye.subLayer = 7;
+        this.leftEye.subLayer = 27;
         this.leftEye.position.x = -550;
         this.leftEye.position.y = -350;
 
@@ -39,12 +39,12 @@ class OnlineGameScene {
 
         this.rightEye = new GraphicObject(nc.graphicAssets.RightEye, this.eyes);
         this.rightEye.fillColor = new Color(0, 0, 0, 1);
-        this.rightEye.subLayer = 7;
+        this.rightEye.subLayer = 27;
         this.rightEye.position.x = 550;
         this.rightEye.position.y = -350;
 
         this.eyesClosed = new GraphicObject(nc.graphicAssets.EyesClosed, this.eyes);
-        this.eyesClosed.subLayer = 8;
+        this.eyesClosed.subLayer = 28;
         this.eyesClosed.position.x = 0;
         this.eyesClosed.position.y = 0;
         // this.eyesClosed.disable();
@@ -434,6 +434,8 @@ class OnlineGameScene {
             pastLevelOutcomeText.string = "-" + parseInt(100 * (oldScale - newScale) / oldScale) + "%";
 
             this.pastLevelOutcomeText.push(pastLevelOutcomeText);
+
+            nc.sounds.hitHurt.playOnce();
         } else {
             // nc.sounds.Beep.playOnce();
             nc.sounds.pickupCoin.playOnce();
