@@ -52,15 +52,16 @@ class MenuScene {
         }
 
         if (nc.keyDownStates["s"] || nc.keyDownStates["S"]) {
-            let serverAddress = prompt("Please enter server address (e.g. ws://127.0.0.1:8081):", "ws://127.0.0.1:8081");
+            let serverAddress = prompt("Please enter server address (e.g. ws://127.0.0.1:8081):", localStorage.getItem("serverAddress") ? localStorage.getItem("serverAddress") : Config.ONLINE_GAME_SERVER_URL);
             if (serverAddress != null) {
                 localStorage.setItem("serverAddress", serverAddress);
             }
         }
 
         if (nc.keyDownStates["n"] || nc.keyDownStates["N"]) {
-            let nickname = prompt("Set your nickname (for online games)", "");
-            localStorage.setItem("playerNick", nickname);
+            let nickname = prompt("Set your nickname (for online games) [max " + Config.MAX_NICKNAME_LENGTH + " characters]", "");
+            let truncated = str.slice(0, Config.MAX_NICKNAME_LENGTH);
+            localStorage.setItem("playerNick", truncated);
         }
 
         if (this._textPlayFadeDown) {

@@ -71,7 +71,7 @@ class OnlineGameScene {
 
         this.pastPlayerSizes = [];
 
-        for (let i = 0; i < 128; i++) {
+        for (let i = 0; i < Config.MAX_LEVELS; i++) {
             this.levels[i] = new GraphicObject();
             this.levels[i].position.y = 150 * (0 + i);
             this.levels[i].scale.x = 15;
@@ -487,7 +487,7 @@ class OnlineGameScene {
         this.leftEye.dispose();
         this.rightEye.dispose();
         this.eyesClosed.dispose();
-        for (let i = 0; i < 128; i++) {
+        for (let i = 0; i < Config.MAX_LEVELS; i++) {
             this.levels[i].dispose();
         }
 

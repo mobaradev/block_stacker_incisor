@@ -1,6 +1,6 @@
 class WebConnection {
     init() {
-        const wsUri = (localStorage.getItem("serverAddress") ? localStorage.getItem("serverAddress") : "ws://127.0.0.1:8081");
+        const wsUri = (localStorage.getItem("serverAddress") ? localStorage.getItem("serverAddress") : Config.ONLINE_GAME_SERVER_URL);
         this.ws = new WebSocket(wsUri);
         this.onlineLobbyScene = null;
         this.onlineGameScene = null;

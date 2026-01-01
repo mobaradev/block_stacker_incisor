@@ -6,13 +6,6 @@ class GameScene {
     init() {
         this.isActive = true;
 
-        // this.fadeImg = new GraphicObject();
-        // this.fadeImg.name = "container";
-        // this.fadeImg.fillColor = new Color(0,0,0,1);
-        // this.fadeImg.scale.x = 1000;
-        // this.fadeImg.scale.y = 1000;
-        // this.fadeImg.subLayer = 100;
-
         this.fadeEffect = new FadeEffect();
         this.fadeEffect.fadeOut();
 
@@ -64,7 +57,7 @@ class GameScene {
 
         this.pastPlayerSizes = [];
 
-        for (let i = 0; i < 128; i++) {
+        for (let i = 0; i < Config.MAX_LEVELS; i++) {
             this.levels[i] = new GraphicObject();
             this.levels[i].position.y = 150 * (0 + i);
             this.levels[i].scale.x = 15;
@@ -428,7 +421,7 @@ class GameScene {
         this.leftEye.dispose();
         this.rightEye.dispose();
         this.eyesClosed.dispose();
-        for (let i = 0; i < 128; i++) {
+        for (let i = 0; i < Config.MAX_LEVELS; i++) {
             this.levels[i].dispose();
         }
 
