@@ -53,6 +53,7 @@ class OnlineLobbyScene {
                 this.fadeEffect.fadeIn();
                 setTimeout(() => {
                     this.deactivateObjects();
+                    this.webConnection.close();
                     this.projectMain.showMenu();
                 }, 1000);
                 this.isLoadingNextScene = true;
@@ -69,11 +70,11 @@ class OnlineLobbyScene {
     }
 
     onGameStart() {
-
+        this.deactivateObjects();
+        this.projectMain.playOnlineGame();
     }
 
     deactivateObjects() {
-        this.webConnection.close();
         this.text.dispose();
         this.fadeEffect.deactivate();
         this.event1.removeCallback(this, "update");

@@ -7,14 +7,14 @@ const server = new WebSocketServer({
 
 // lobby
 let lobbyStatus = "open";
-let lobbyWaitingRemainTime = 10.00;
+let lobbyWaitingRemainTime = 4.00;
 let lobbyPlayers = [];
 
 // game
 let gameStatus = "";
 let gamePlayers = [];
 
-// player - {nick, socket, points, positionX, positionY, sizeX, color}
+// player - {nick, socket, isAlive, points, positionX, sizeX, color}
 
 server.on('connection', (socket) => {
     console.log('Client connected');
@@ -55,6 +55,28 @@ server.on('connection', (socket) => {
 
             broadcastLobbyStatus();
         }
+
+        if (message.type === "playerGameData") {
+            // Update game state based on player messages
+            for (let p of gamePlayers) {
+                if (p.socket === socket) {
+                    p.positionX = message.positionX;
+                    p.sizeX = message.sizeX;
+                    p.color = message.color
+                    p.points = message.points;
+                    break;
+                }
+            }
+        }
+
+        if (message.type === "setPlayerDead") {
+            for (let p of gamePlayers) {
+                if (p.socket === socket) {
+                    p.isAlive = false;
+                    break;
+                }
+            }
+        }
     });
 
     socket.on('close', () => {
@@ -73,10 +95,11 @@ function update() {
             if (p.isReady) {
                 isAtLeastOneReady = true;
                 lobbyStatus = "startingSoon";
-                lobbyWaitingRemainTime = 10.00;
+                lobbyWaitingRemainTime = 4.00;
                 break;
             }
         }
+        broadcastLobbyStatus();
     }
 
     if (lobbyStatus == "startingSoon") {
@@ -89,12 +112,29 @@ function update() {
     }
 
     if (lobbyStatus == "inGame") {
+        let areAllDead = true;
+        for (let p of gamePlayers) {
+            if (p.isAlive) {
+                areAllDead = false;
+                break;
+            }
+        }
 
+        if (areAllDead) {
+            endGame();
+        } else {
+            broadcastGame();
+        }
     }
 }
 
 function startGame() {
     lobbyStatus = "inGame";
+
+    for (let p of lobbyPlayers) {
+        let gamePlayer = { nick: p.nick, socket: p.socket, isAlive: true, points: 0, positionX: 0, sizeX: 5, color: { red: 1, green: 1, blue: 1 } };
+        gamePlayers.push(gamePlayer);
+    }
 
     for (let p of lobbyPlayers) {
         p.socket.send(JSON.stringify({ type: "startGame", players: lobbyPlayers.map(pl => ({ nick: pl.nick })) }));
@@ -107,6 +147,24 @@ function broadcastLobbyStatus() {
     }
 }
 
-setInterval(update, 1000 / 60);
+function broadcastGame() {
+    for (let p of gamePlayers) {
+        p.socket.send(JSON.stringify({ type: "gameUpdate", players: gamePlayers.map(pl => ({ nick: pl.nick, isAlive: pl.isAlive, points: pl.points, positionX: pl.positionX, sizeX: pl.sizeX, color: pl.color })) }));
+    }
+}
+
+function endGame() {
+    lobbyStatus = "open";
+    lobbyPlayers = [];
+    let lobbyWaitingRemainTime = 4.00;
+
+    for (let p of gamePlayers) {
+        p.socket.send(JSON.stringify({ type: "endGame" }));
+    }
+
+    gamePlayers = [];
+}
+
+setInterval(update, 1000 / 30);
 
 console.log('WebSocket server is running on ws://localhost:8081');

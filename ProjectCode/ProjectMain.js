@@ -31,4 +31,14 @@ class ProjectMain {
         this.onlineLobbyScene = new OnlineLobbyScene(this);
         this.onlineLobbyScene.init();
     }
+
+    playOnlineGame() {
+        this.onlineGameScene = new OnlineGameScene(this);
+        this.onlineGameScene.init();
+    }
+
+    showOnlineGameResults(data) {
+        this.onlineGameResultsScene = new OnlineGameResultsScene(this, data);
+        this.onlineGameResultsScene.init();
+    }
 }

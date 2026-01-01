@@ -3,8 +3,10 @@ class WebConnection {
         const wsUri = "ws://127.0.0.1:8081";
         this.ws = new WebSocket(wsUri);
         this.onlineLobbyScene = null;
+        this.onlineGameScene = null;
 
         this.playersInLobby = [];
+        this.playersInGame = [];
 
         this.ws.addEventListener("open", () => {
             this.ws.send(JSON.stringify({ type: "joinLobby", nick: "player1" }));
@@ -37,7 +39,19 @@ class WebConnection {
             if (data.type === "startGame") {
                 console.log("Game is starting!");
                 // Handle game start logic here
-                alert("Game is starting! Players: " + data.players.map(p => p.nick).join(", "));
+                this.onlineLobbyScene.onGameStart();
+                // alert("Game is starting! Players: " + data.players.map(p => p.nick).join(", "));
+            }
+
+            if (data.type === "gameUpdate") {
+                this.playersInGame = data.players;
+                console.log("Current players in game:");
+                console.log(data.players);
+            }
+
+            if (data.type === "endGame") {
+                console.log("Game has ended.");
+                this.onlineGameScene.onGameEnd();
             }
         });
     }
