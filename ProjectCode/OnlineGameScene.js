@@ -11,13 +11,13 @@ class OnlineGameScene {
 
         this.webConnection.onlineGameScene = this;
 
-        this.onlineInfoText = new TextAssembly();
+        this.onlineInfoText = new TextBox();
         this.onlineInfoText.parent = nc.mainCamera;
         this.onlineInfoText.horizontalJustification = "center";
         this.onlineInfoText.string = "...";
         this.onlineInfoText.position.x = 750;
         this.onlineInfoText.position.y = 500;
-        this.onlineInfoText.subLayer = 10;
+        this.onlineInfoText.subLayer = 999;
 
         this.isActive = true;
         this.isPlayerDead = false;
@@ -293,7 +293,7 @@ class OnlineGameScene {
             let textString = "Players:\n";
 
             this.webConnection.playersInGame.forEach(player => {
-                textString += player.nick + " - " + player.points + "\n";
+                textString += player.nick + (player.nick === this.webConnection.yourNick ? " [You]" : "") + " - " + player.points + "\n";
             });
 
             this.onlineInfoText.string = textString;
@@ -347,6 +347,13 @@ class OnlineGameScene {
         for (let i = 0; i < this.webConnection.playersInGame.length; i++) {
             if (!this.otherPlayersGenerated) {
                 this.otherPlayers.push(new GraphicObject());
+                let playerNickText = new TextBox();
+                playerNickText.string = (this.webConnection.playersInGame[i].nick === this.webConnection.yourNick ? "[You]" : this.webConnection.playersInGame[i].nick);
+                playerNickText.position.y = 80;
+                playerNickText.position = this.otherPlayers[i].position;
+                playerNickText.textFormat.characterScaleX = 0.8;
+                playerNickText.textFormat.characterScaleY = 0.8;
+                playerNickText.subLayer = 20;
                 this.generatingOtherPlayers = true;
             }
 
@@ -359,6 +366,10 @@ class OnlineGameScene {
                 this.otherPlayers[i].subLayer = 1;
                 this.otherPlayers[i].position.x = this.webConnection.playersInGame[i].positionX;
                 this.otherPlayers[i].position.y = this.webConnection.playersInGame[i].points * 150;
+
+                if (this.webConnection.playersInGame[i].nick === this.webConnection.yourNick) {
+                    this.otherPlayers[i].fillColor.alpha = 0; // do not show yourself from server
+                }
             }
         }
         if (!this.otherPlayersGenerated && this.generatingOtherPlayers) this.otherPlayersGenerated = true;
@@ -457,7 +468,7 @@ class OnlineGameScene {
     onGameEnd() {
         setTimeout(() => {
             this.deactivateObjects();
-            this.projectMain.showOnlineGameResults(this.pastPlayerSizes);
+            this.projectMain.showOnlineGameResults(this.pastPlayerSizes, this.webConnection.playersInGame);
         }, 1000);
     }
 
@@ -505,5 +516,10 @@ class OnlineGameScene {
         this.event1.removeCallback(this, "update");
 
         this.onlineInfoText.dispose();
+
+        if (this.startInfoText) {
+            this.startInfoText.dispose();
+            this.startInfoText = null;
+        }
     }
 }

@@ -37,8 +37,8 @@ class ProjectMain {
         this.onlineGameScene.init();
     }
 
-    showOnlineGameResults(data) {
-        this.onlineGameResultsScene = new OnlineGameResultsScene(this, data);
+    showOnlineGameResults(data, allPlayerScores) {
+        this.onlineGameResultsScene = new OnlineGameResultsScene(this, data, allPlayerScores);
         this.onlineGameResultsScene.init();
     }
 }

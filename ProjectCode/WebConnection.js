@@ -1,6 +1,6 @@
 class WebConnection {
     init() {
-        const wsUri = "ws://127.0.0.1:8081";
+        const wsUri = (localStorage.getItem("serverAddress") ? localStorage.getItem("serverAddress") : "ws://127.0.0.1:8081");
         this.ws = new WebSocket(wsUri);
         this.onlineLobbyScene = null;
         this.onlineGameScene = null;
@@ -8,8 +8,12 @@ class WebConnection {
         this.playersInLobby = [];
         this.playersInGame = [];
 
+        this.yourNick = "";
+
         this.ws.addEventListener("open", () => {
-            this.ws.send(JSON.stringify({ type: "joinLobby", nick: "player1" }));
+            let randomId = Math.floor(Math.random() * (999 - 1 + 1)) + 1;
+            this.yourNick = "Player" + randomId;
+            this.ws.send(JSON.stringify({ type: "joinLobby", nick: this.yourNick }));
         });
 
         this.ws.addEventListener("message", (e) => {

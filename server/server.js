@@ -13,6 +13,7 @@ let lobbyPlayers = [];
 // game
 let gameStatus = "";
 let gamePlayers = [];
+let gameTime = 0;
 
 // player - {nick, socket, isAlive, points, positionX, sizeX, color}
 
@@ -82,6 +83,7 @@ server.on('connection', (socket) => {
     socket.on('close', () => {
         console.log('Client disconnected');
         lobbyPlayers = lobbyPlayers.filter(p => p.socket !== socket);
+        gamePlayers = gamePlayers.filter(p => p.socket !== socket);
 
         broadcastLobbyStatus();
     });
@@ -112,6 +114,7 @@ function update() {
     }
 
     if (lobbyStatus == "inGame") {
+        gameTime += (1 / 30);
         let areAllDead = true;
         for (let p of gamePlayers) {
             if (p.isAlive) {
@@ -120,15 +123,23 @@ function update() {
             }
         }
 
-        if (areAllDead) {
+        if (areAllDead || gamePlayers.length == 0) {
             endGame();
         } else {
             broadcastGame();
+        }
+
+        console.log("Game time: " + gameTime + "s");
+
+        if (gameTime >= 180) {
+            console.log("Game time limit reached.");
+            endGame();
         }
     }
 }
 
 function startGame() {
+    this.gameTime = 0;
     lobbyStatus = "inGame";
 
     for (let p of lobbyPlayers) {

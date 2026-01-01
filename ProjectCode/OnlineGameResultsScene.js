@@ -1,7 +1,8 @@
 class OnlineGameResultsScene {
-    constructor(projectMain, data) {
+    constructor(projectMain, data, allPlayerScores) {
         this.projectMain = projectMain;
         this.sizes = data;
+        this.allPlayerScores = allPlayerScores;
     }
     init() {
         nc.mainCamera.backgroundColor = new Color(0, 0, 0);
@@ -70,6 +71,12 @@ class OnlineGameResultsScene {
         this.scoreText.textFormat.characterScaleX = 2;
         this.scoreText.textFormat.characterScaleY = 2;
 
+        this.allPlayerScoresText = new TextAssembly();
+        this.allPlayerScoresText.string = "" + this.allPlayerScores.map(ps => `\n${ps.nick} - ${ps.points}`).join("");
+        this.allPlayerScoresText.position.x = 400;
+        this.allPlayerScoresText.position.y = -200;
+
+
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
     }
@@ -135,5 +142,6 @@ class OnlineGameResultsScene {
         this.scoreText.dispose();
         this.event1.removeCallback(this, "update");
         this.gameOverParticle.dispose();
+        this.allPlayerScoresText.dispose();
     }
 }

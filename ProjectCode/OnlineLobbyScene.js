@@ -17,9 +17,9 @@ class OnlineLobbyScene {
 
         this.text = new TextAssembly();
         this.text.horizontalJustification = "center";
-        this.text.string = "...";
+        this.text.string = "Cannot connect to the server...\n\n ESC to menu. \n You can set custom server by clicking 'S' in the main menu.";
         this.text.position.x = 0;
-        this.text.position.y = 500;
+        this.text.position.y = 100;
 
         this.isPlayerReady = false;
 
@@ -32,12 +32,14 @@ class OnlineLobbyScene {
             let textString = "Lobby:\n";
 
             this.webConnection.playersInLobby.forEach(player => {
-                textString += player.nick + (player.isReady ? " (Ready)" : " (Not Ready)") + "\n";
+                textString += player.nick + (player.isReady ? " (Ready)" : " (Not Ready)") + (player.nick === this.webConnection.yourNick ? " [You]" : "") + "\n";
             });
 
             textString += `\nLobby Status: ${this.webConnection.lobbyStatus}`;
             if (this.webConnection.lobbyStatus === "startingSoon") {
                 textString += `\nStarting in: ${this.webConnection.lobbyWaitingRemainTime.toFixed(2)}s`;
+            } else {
+                textString += `\n\n\nPress SPACE to ready up.\nPress ESC to return to menu.\n\n*This is an experimental early version of the multiplayer mode.*`;
             }
 
             this.text.string = textString;
@@ -66,7 +68,7 @@ class OnlineLobbyScene {
     }
 
     onLobbyUnavailable() {
-        this.text.string = "Lobby is currently unavailable. Press ESC to return to menu.";
+        this.text.string = "Connected but the lobby is currently unavailable\n (the game might be in progress) \n\nPress ESC to return to menu. \n\n You can set custom server by clicking 'S' in the main menu.";
     }
 
     onGameStart() {

@@ -10,16 +10,22 @@
 							{
 								"subPanels":[
 									{"subPanels":[],"panelType":"Object","isColumns":true,"divisionLocation":0.5,"stateInfo":""},
-									{"subPanels":[],"panelType":"Particle System","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
+									{
+										"subPanels":[],
+										"panelType":"Construct",
+										"isColumns":true,
+										"divisionLocation":0.5,
+										"stateInfo":"{\"targetConstructName\":\"MenuConstruct\"}"
+									}
 								],
 								"isColumns":false,
-								"divisionLocation":0.46490745393752425,
+								"divisionLocation":0.3469117313365105,
 								"stateInfo":""
 							},
 							{"subPanels":[],"panelType":"Hierarchy","isColumns":true,"divisionLocation":0.5,"stateInfo":""}
 						],
 						"isColumns":true,
-						"divisionLocation":0.6345639250507937,
+						"divisionLocation":0.6003130406559497,
 						"stateInfo":""
 					}
 				],
@@ -36,12 +42,16 @@
 			}
 		],
 		"isColumns":true,
-		"divisionLocation":0.45836782560706396,
+		"divisionLocation":0.5172302594694977,
 		"stateInfo":""
 	},
 	"selectionState":{"sceneObject":[]},
 	"hierarchyExpansionInfo":{
-		"MainScene":["[[-1,\"MainScene\"],[0,\"MainCamera\"]]","[[-1,\"MainScene\"],[3,\"GraphicObject\"]]","[[-1,\"MainScene\"]]"],
+		"MainScene":[
+			"[[-1,\"MainScene\"],[0,\"MainCamera\"]]",
+			"[[-1,\"MainScene\"],[0,\"MainCamera\"],[0,\"TextAssembly\"]]",
+			"[[-1,\"MainScene\"]]"
+		],
 		"Construct Editor Scene: MenuConstruct":[
 			"[[-1,\"Construct Editor Scene: MenuConstruct\"],[0,\"MenuConstruct\"]]",
 			"[[-1,\"Construct Editor Scene: MenuConstruct\"]]"
