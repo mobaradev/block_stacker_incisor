@@ -37,6 +37,10 @@ class MenuScene {
         }
 
         if (nc.keyDownStates["l"] || nc.keyDownStates["L"]) {
+            if (localStorage.getItem("playerNick") == null) {
+                let nickname = prompt("Set your nickname (for online games)", "");
+                localStorage.setItem("playerNick", nickname);
+            }
             if (!this.isLoadingLevel) {
                 setTimeout(() => {
                     this.deactivateObjects();
@@ -50,6 +54,11 @@ class MenuScene {
         if (nc.keyDownStates["s"] || nc.keyDownStates["S"]) {
             let serverAddress = prompt("Please enter server address (e.g. ws://127.0.0.1:8081):", "ws://127.0.0.1:8081");
             localStorage.setItem("serverAddress", serverAddress);
+        }
+
+        if (nc.keyDownStates["n"] || nc.keyDownStates["N"]) {
+            let nickname = prompt("Set your nickname (for online games)", "");
+            localStorage.setItem("playerNick", nickname);
         }
 
         if (this._textPlayFadeDown) {

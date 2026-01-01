@@ -27,7 +27,7 @@ class OnlineGameScene {
         this.eyes.scale.x = 0.4;
         this.eyes.scale.y = 0.4;
         this.eyes.position.y = 400;
-        this.eyes.subLayer = 5;
+        this.eyes.subLayer = 21;
 
         this.leftEye = new GraphicObject(nc.graphicAssets.RightEye, this.eyes);
         this.leftEye.fillColor = new Color(0, 0, 0, 1);
@@ -156,6 +156,8 @@ class OnlineGameScene {
         this.gameOverParticle = new ParticleSystem();
         this.gameOverParticle.definition = nc.particleSystemDefs.ParticleSystem2;
         this.gameOverParticle.subLayer = 10;
+
+        this.playerNickTexts = [];
 
         this.event1 = nc.appEvents.fixedUpdate;
         this.event1.addCallback(this, "update");
@@ -354,6 +356,8 @@ class OnlineGameScene {
                 playerNickText.textFormat.characterScaleX = 0.8;
                 playerNickText.textFormat.characterScaleY = 0.8;
                 playerNickText.subLayer = 20;
+
+                this.playerNickTexts.push(playerNickText);
                 this.generatingOtherPlayers = true;
             }
 
@@ -506,6 +510,10 @@ class OnlineGameScene {
         });
 
         this.otherPlayers.forEach(player => {
+            player.dispose();
+        });
+
+        this.playerNickTexts.forEach(player => {
             player.dispose();
         });
 

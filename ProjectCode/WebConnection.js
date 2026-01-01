@@ -12,7 +12,15 @@ class WebConnection {
 
         this.ws.addEventListener("open", () => {
             let randomId = Math.floor(Math.random() * (999 - 1 + 1)) + 1;
+
             this.yourNick = "Player" + randomId;
+            if (localStorage.getItem("playerNick") == null) {
+                localStorage.setItem("playerNick", "Player" + randomId);
+                this.yourNick = localStorage.getItem("playerNick");
+            } else {
+                this.yourNick = localStorage.getItem("playerNick");
+            }
+
             this.ws.send(JSON.stringify({ type: "joinLobby", nick: this.yourNick }));
         });
 
