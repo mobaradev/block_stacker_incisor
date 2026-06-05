@@ -1,7 +1,0 @@
-{
-	"WiggleParticleSystemDefinitionp":{
-		"n":"WiggleParticleSystemDefinition",
-		"t":"p",
-		"d":"{\"particleInfo\":[{\"type\":\"ParticleInfo\",\"graphicAsset\":\"SampleParticle\",\"particlesPerSecond\":10,\"scale\":1}],\"emissionDuration\":0,\"particleLifetime\":1,\"emissionTimeRandomness\":0.3,\"alpha\":{\"type\":\"ParticleSystemRamp1\",\"interpolationType\":\"linear\",\"inputType\":\"ageRatio\",\"inputMaximum\":10,\"values\":[[0,0],[0.1,1]]},\"color\":{\"type\":\"Vector3\",\"x\":0.5,\"y\":0.5,\"z\":1},\"brightnessRandomness\":0.3,\"particleHueShiftRandomness\":0.2,\"emissionVelocity\":{\"type\":\"Vector2\",\"x\":0,\"y\":250},\"emissionVelocityRandomness\":0.3,\"emissionConeAngle\":0,\"initialRotationRandomness\":0,\"wiggleStrengthX\":50,\"wiggleSpeedX\":1.2,\"particleScale\":{\"type\":\"ParticleSystemRamp2\",\"interpolationType\":\"linear\",\"inputType\":\"ageRatio\",\"inputMaximum\":10,\"values\":[[0,{\"type\":\"Vector2\",\"x\":0,\"y\":0}],[0.05,{\"type\":\"Vector2\",\"x\":1,\"y\":1}],[1,{\"type\":\"Vector2\",\"x\":0,\"y\":0}]]}}"
-	}
-}

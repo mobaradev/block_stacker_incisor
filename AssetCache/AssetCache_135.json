@@ -1,7 +1,0 @@
-{
-	"FountainParticleDefinitionp":{
-		"n":"FountainParticleDefinition",
-		"t":"p",
-		"d":"{\"particleInfo\":[{\"type\":\"ParticleInfo\",\"graphicAsset\":\"SampleParticle\",\"particlesPerSecond\":50,\"scale\":0.2}],\"emissionDuration\":0,\"particleLifetime\":2.7,\"emissionTimeRandomness\":0.05,\"alpha\":1,\"color\":{\"type\":\"Vector3\",\"x\":0.8,\"y\":0.8,\"z\":0.8},\"brightnessRandomness\":0.2,\"emitterShape\":\"custom\",\"customEmitterShapeExpression\":\"value = rotate2D(vec2(500.0,0.0), rand1.w * 180.0);\",\"emissionVelocity\":{\"type\":\"Vector2\",\"x\":0,\"y\":1000},\"emissionVelocityRandomness\":0.3,\"emissionConeAngle\":30,\"force\":{\"type\":\"Vector2\",\"x\":0,\"y\":-1000},\"rotationSpeedRandomness\":180,\"initialRotationRandomness\":180,\"particleScale\":{\"type\":\"Vector2\",\"x\":3,\"y\":3},\"particleScaleRandomness\":0.2}"
-	}
-}
